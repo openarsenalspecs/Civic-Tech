@@ -15,6 +15,13 @@ AI AGENTS:  DO NOT MODIFY THIS FILE.
 
 # Open Arsenal Civic Tech Specifications
 
+These specifications form a comprehensive portfolio of open-source technology frameworks created to accelerate the development of secure, transparent, and interoperable software across virtually every major industry. Covering artificial intelligence, civic infrastructure, healthcare, finance, cybersecurity, environmental intelligence, enterprise systems, scientific research, and digital governance, each specification is designed with modular architecture, privacy-first principles, and self-hosted deployment in mind. While every project can operate independently, they are also designed to work together as part of a larger ecosystem that reduces vendor lock-in and encourages long-term innovation through open standards.
+
+Organizations are welcome to implement these specifications under their respective open-source licenses, fostering collaboration and community-driven development. For businesses seeking attribution-free commercial deployment, a **Specification Branding License** is available through negotiation. Licensing fees are determined based on the size, scope, and intended use of the deployment, providing a flexible pathway for enterprises that require branded or white-label implementations while supporting the continued expansion of the Open Arsenal specification library.
+
+
+## Civic Tech Specs:
+
 - **Civic Technology - Open Arsenal**  
   [https://roxanneardary.com/civic-tech/](https://roxanneardary.com/civic-tech/)  
   Open source civic technology projects created by Roxanne Ardary focused on transparent, collaborative, and reusable infrastructure for government, emergencies, public data, and civic accountability.
