@@ -230,6 +230,10 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/openenergyos/](https://roxanneardary.com/openenergyos/)  
   A specification-driven, modular energy transition platform for simulating, optimizing, and executing large-scale shifts away from oil dependency using physics-based, economic, and regulatory modeling.
 
+- **Open Intelligence Stack**  
+  [https://roxanneardary.com/open-intelligence-stack/](https://roxanneardary.com/open-intelligence-stack/)  
+  Open Intelligence Stack (OIS) is a modular AI governance specification that structures multi-agent systems into specialized, human-supervised modules with built-in legal analysis, evidence scoring, and full provenance tracking. It ensures every decision is transparent, auditable, and compliant by design, with accountability enforced across all layers of the system.  
+
 - **OpenSkill Registry**  
   [https://roxanneardary.com/openskill-registry/](https://roxanneardary.com/openskill-registry/)  
   A privacy-first, AI-powered open-source platform that connects verified individuals with real-world skills to local, short-term, and flexible work opportunities.
