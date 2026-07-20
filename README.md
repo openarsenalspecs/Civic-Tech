@@ -38,7 +38,7 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/arcanebuild/](https://roxanneardary.com/arcanebuild/)  
   High-performance visual application builder with AI-assisted design and modular architecture. AGPLv3
 
-- **Atlas Urban Intelligence**  
+- [**Atlas Urban Intelligence Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/a38c57457ed047d03120627849135a8dc98a4e33/Atlas%20Urban%20Intelligence.md)    
   [https://roxanneardary.com/atlas-urban-intelligence/](https://roxanneardary.com/atlas-urban-intelligence/)  
   A modular, privacy-preserving smart city AI system that converts distributed edge data into real-time, event-based urban intelligence for safer and more efficient city operations.
 
