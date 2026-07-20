@@ -356,6 +356,12 @@ Organizations are welcome to implement these specifications under their respecti
 
   ---
 
+# Specification Branding License (SBL)
+
+Buy the Basket: [https://roxanneardary.com/civic-tech/](https://roxanneardary.com/civic-tech/)  
+
+---
+
   ## License & Notice Requirements
 
 Open Arsenal Civic Tech specifications are released under the **GNU Affero General Public License v3.0 or later (AGPL-3.0+)**.  By contributing to any Open Arsenal project, you agree that your contributions will also be released under this license.
