@@ -350,7 +350,7 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/umbrix/](https://roxanneardary.com/umbrix/)  
   Open-source VPN with multi-node chaining, AI-assisted privacy, and post-quantum-ready cryptography. AGPLv3
 
-- **Zentis**  
+- [**Zentis Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/478d572676912516b61d82748c0ae414b34f9952/Zentis.md)    
   [https://roxanneardary.com/zentis/](https://roxanneardary.com/zentis/)  
   Infrastructure for interpretive governance, separating platform policy analysis from probabilistic legal risk modeling with transparent, explainable outputs.
 
