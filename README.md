@@ -222,6 +222,10 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/open-arsenal-codeberg/](https://roxanneardary.com/open-arsenal-codeberg/)  
   An ambitious open-source collection of modular project concepts, tools, and applications focused on decentralization, privacy, AI, finance, governance, and interconnected systems.
 
+- **OpenBirth Platform**
+[https://roxanneardary.com/openbirth-platform/](https://roxanneardary.com/openbirth-platform/)
+OpenBirth Platform is an open source demographic intelligence system designed to collect, validate, analyze, and visualize birth statistics across countries, states, provinces, municipalities, cities, towns, and communities worldwide. Built with a modular architecture, it provides transparent data infrastructure for researchers, governments, and organizations studying population trends through open demographic data.  
+
 - **OpenCareerForecast**  
   [https://gitlab.com/Roxanne_Ardary/opencareerforecast](https://gitlab.com/Roxanne_Ardary/opencareerforecast)  
   An AGPL 3.0+ open-source career intelligence platform that helps users discover the true cost of their career path through education ROI analysis, cost-of-living comparisons, debt modeling, and future workforce forecasting.
