@@ -222,8 +222,8 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/open-arsenal-codeberg/](https://roxanneardary.com/open-arsenal-codeberg/)  
   An ambitious open-source collection of modular project concepts, tools, and applications focused on decentralization, privacy, AI, finance, governance, and interconnected systems.
 
-- **OpenBirth Platform**
-[https://roxanneardary.com/openbirth-platform/](https://roxanneardary.com/openbirth-platform/)
+- **OpenBirth Platform**  
+[https://roxanneardary.com/openbirth-platform/](https://roxanneardary.com/openbirth-platform/)  
 OpenBirth Platform is an open source demographic intelligence system designed to collect, validate, analyze, and visualize birth statistics across countries, states, provinces, municipalities, cities, towns, and communities worldwide. Built with a modular architecture, it provides transparent data infrastructure for researchers, governments, and organizations studying population trends through open demographic data.  
 
 - **OpenCareerForecast**  
@@ -346,7 +346,7 @@ OpenBirth Platform is an open source demographic intelligence system designed to
   [https://roxanneardary.com/tokencycle/](https://roxanneardary.com/tokencycle/)  
   An open-source circular infrastructure platform that transforms urban waste systems into integrated networks for recycling, composting, energy recovery, and tokenized community rewards.
 
-- **TrueOwnerOS**  
+- [**TrueOwnerOS Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/9b11a5e0031129cc2d27c7565c0563ba9efb3552/TrueOwnerOS.md)  
   [https://roxanneardary.com/trueowneros/](https://roxanneardary.com/trueowneros/)  
   An open-source AI-powered infrastructure transparency platform that maps mission-critical corporate properties and reveals the true ownership structures behind them.
 
