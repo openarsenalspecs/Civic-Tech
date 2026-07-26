@@ -170,7 +170,7 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/infraopen/](https://roxanneardary.com/infraopen/)  
   Open-source platform providing state-by-state electricity and internet provider profiles, compliance, and sustainability metrics. AGPLv3
 
-- **IntelliTunnel**  
+- [**IntelliTunnel Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/e89dbd55d3b5859adce8aa96e0b4e83f566009c1/IntelliTunnel.md)    
   [https://roxanneardary.com/intellitunnel/](https://roxanneardary.com/intellitunnel/)  
   An adaptive multi-path networking system that continuously finds the fastest and most reliable connection using parallel routing, predictive optimization, and instant failover.
 
