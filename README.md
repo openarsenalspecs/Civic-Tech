@@ -58,7 +58,7 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/breaksignal/](https://roxanneardary.com/breaksignal/)  
   An open-source AI audit framework that exposes inconsistency at scale by measuring truthfulness, transparency, and response stability across AI systems.
 
-- **BridgeBuddy**  
+- [**BridgeBuddy Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/f923335837bb10e85e75be4e37c33547e7b2b7fe/BridgeBuddy.md)    
   [https://roxanneardary.com/bridgebuddy/](https://roxanneardary.com/bridgebuddy/)  
   A secure, AI-guided platform that helps senior citizens navigate government services through simple, step-by-step assistance with accessibility-first design.
 
