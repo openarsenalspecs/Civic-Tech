@@ -150,7 +150,7 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/govgraph/](https://roxanneardary.com/govgraph/)  
   An open graph of public systems that connects social media activity, campaign finance disclosures, and public institutional data into a unified, transparent analysis framework.
 
-- **GuardianEcho**  
+- [**GuardianEcho Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/689b7a11db020961dce99ae811d4272b40d53603/GuardianEcho.md)    
   [https://roxanneardary.com/guardianecho/](https://roxanneardary.com/guardianecho/)  
   An open-source, encrypted, identity-verified whistleblower reporting platform that enables families to safely submit and track reports of institutional threats while preserving strict privacy and anonymity protections.
 
