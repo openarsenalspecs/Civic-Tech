@@ -182,7 +182,7 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/kova/](https://roxanneardary.com/kova/)  
   Guardrails for the AI era; a modular AI governance framework that enforces policy-driven control over AI, web access, and system-level actions across consumer and enterprise environments.
 
-- **LeaseTrack**  
+- [**LeaseTrack Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/caa7790077047102054585cf67f684a0bf804efd/LeaseTrack.md)    
   [https://roxanneardary.com/leasetrack/](https://roxanneardary.com/leasetrack/)  
   An open source AI platform that analyzes U.S. rental markets to identify affordability gaps, ownership patterns, and landlord compliance issues. AGPLv3
 
