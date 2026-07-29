@@ -258,7 +258,7 @@ OpenBirth Platform is an open source demographic intelligence system designed to
   [https://gitlab.com/Roxanne_Ardary/origintype](https://gitlab.com/Roxanne_Ardary/origintype)  
   An open-source AI handwriting tutor that teaches print, cursive, signature development, and typography through adaptive lessons, printable worksheets, and intelligent handwriting analysis.
 
-- **ParcelPlanner**  
+- [**ParcelPlanner Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/6f56c56e3f5bc431342c7fc63cf80318e91c2630/ParcelPlanner.md)    
   [https://roxanneardary.com/parcelplanner/](https://roxanneardary.com/parcelplanner/)  
   An open-source property intelligence platform that helps users determine what can legally be built, modified, or developed on a parcel of land using official zoning laws and government regulations.
 
