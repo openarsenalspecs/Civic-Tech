@@ -154,7 +154,7 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/guardianecho/](https://roxanneardary.com/guardianecho/)  
   An open-source, encrypted, identity-verified whistleblower reporting platform that enables families to safely submit and track reports of institutional threats while preserving strict privacy and anonymity protections.
 
-- **HabitaSense**  
+- [**HabitaSense Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/95f5c88fc173362cd294ec46757e5c4e1953c632/HabitaSense.md)    
   [https://roxanneardary.com/habitasense/](https://roxanneardary.com/habitasense/)  
   An open-source AI-powered platform that delivers transparent, data-driven analysis of rental and home ownership markets. AGPLv3
 
