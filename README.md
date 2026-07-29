@@ -290,7 +290,7 @@ OpenBirth Platform is an open source demographic intelligence system designed to
   [https://roxanneardary.com/raise/](https://roxanneardary.com/raise/)  
   AI early warning system predicting hazards and delivering actionable alerts for floods, storms, wildfires, disease outbreaks, and more. AGPLv3
 
-- **Rally Copilot**  
+- [**Rally Copilot Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/72e499f8936b9a9bf0a95d790e76457f592f232f/Rally%20Copilot.md)  
   [https://roxanneardary.com/rally-copilot/](https://roxanneardary.com/rally-copilot/)  
   A modular, rules-based Rally course design and optimization platform that combines federation-aware rule systems, spatial validation, and AI-assisted tools to help design, validate, and refine competition-ready Rally courses.
 
