@@ -142,7 +142,7 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/flexiprice/](https://roxanneardary.com/flexiprice/)  
   An open-source, modular dynamic pricing platform that provides real-time market intelligence, automated pricing recommendations, competitive pricing strategies, and customizable industry-specific modules for intelligent pricing across real estate, retail, services, and other markets.
 
-- **Fundamenta**  
+- [**Fundamenta Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/c253b5b4d2c3603677eec8d76f8c978ab2c0fbf4/Fundamenta.md)    
   [https://roxanneardary.com/fundamenta/](https://roxanneardary.com/fundamenta/)  
   An open-source, AI-driven government budgeting platform that enables transparent, accountable, and intelligent public financial management.
 
