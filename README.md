@@ -146,6 +146,10 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/fundamenta/](https://roxanneardary.com/fundamenta/)  
   An open-source, AI-driven government budgeting platform that enables transparent, accountable, and intelligent public financial management.
 
+- [**GameCommons Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/a4b553ef7b56913ee733c5b1e50b7c24c2af53ef/GameCommons.md)  
+  [https://roxanneardary.com/gamecommons/](https://roxanneardary.com/gamecommons/)  
+  GameCommons is an open-source, federated multiplayer gaming platform that enables communities to create, host, and connect community-owned game worlds through a modular server ecosystem. It provides shared infrastructure for federation, matchmaking, chat, analytics, funding, rewards, and extensible game modules while allowing independent communities to maintain control of their servers.
+
 - **GovGraph**  
   [https://roxanneardary.com/govgraph/](https://roxanneardary.com/govgraph/)  
   An open graph of public systems that connects social media activity, campaign finance disclosures, and public institutional data into a unified, transparent analysis framework.
