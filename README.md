@@ -278,7 +278,7 @@ OpenBirth Platform is an open source demographic intelligence system designed to
   [https://roxanneardary.com/plotledger/](https://roxanneardary.com/plotledger/)  
   The Future of Parcel Intelligence, an open-source AI platform that unifies large land parcel data, zoning laws, permits, and ownership records into a single national intelligence system.
 
-- **PressFixAI**  
+- [**PressFixAI Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/c0c88e621223ca0c03e80228a3963f38f68ac313/PressFix%20AI.md)    
   [https://roxanneardary.com/pressfixai/](https://roxanneardary.com/pressfixai/)  
   An open-source WordPress optimization engine that analyzes site performance, SEO, and Search Console issues to provide explainable, human-approved fix recommendations.
 
