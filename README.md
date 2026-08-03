@@ -298,7 +298,7 @@ OpenBirth Platform is an open source demographic intelligence system designed to
   [https://roxanneardary.com/rally-copilot/](https://roxanneardary.com/rally-copilot/)  
   A modular, rules-based Rally course design and optimization platform that combines federation-aware rule systems, spatial validation, and AI-assisted tools to help design, validate, and refine competition-ready Rally courses.
 
-- **Resource Atlas**  
+- [**Resource Atlas Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/259db68a8c967ac714ffcd506298d38980a2f9b8/Resource%20Atlas.md)    
   [https://roxanneardary.com/resource-atlas/](https://roxanneardary.com/resource-atlas/)  
   An open-source intelligence platform that helps nations and communities identify resources, reduce dependencies, close workforce and infrastructure gaps, and generate 36-month revitalization roadmaps focused on resilience, self-sufficiency, and local prosperity.
 
