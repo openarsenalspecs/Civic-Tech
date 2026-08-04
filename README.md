@@ -346,7 +346,7 @@ ScriptFlow is an open-source, multi-agent AI screenplay specification that trans
   [https://roxanneardary.com/swapcell/](https://roxanneardary.com/swapcell/)  
   A modular, open-source smartphone platform with AI-driven system management and capability-based device connectivity. AGPLv3
 
-- **Syntara**  
+- [**Syntara Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/d2b85950f618f97f234d2f3474eb7214017b4cf1/Syntara.md)    
   [https://roxanneardary.com/syntara/](https://roxanneardary.com/syntara/)  
   A Vendor Independence Operating System that models enterprise infrastructure, detects vendor lock-in, and generates safe, reversible migration pathways toward infrastructure autonomy.
 
