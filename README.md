@@ -214,9 +214,9 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/neuratrust/](https://roxanneardary.com/neuratrust/)  
   An open-source, human-accountable AI platform focused on transparent governance, provable safety, and auditable intelligence systems.
 
-- **NeuroGrid**  
-  [https://roxanneardary.com/neurogrid/](https://roxanneardary.com/neurogrid/)  
-  A modular, open-source autonomous intelligence protocol for coordinating multi-agent AI swarms with verifiable execution, structured collaboration, and specification-driven integrity.
+- [**NeuroGrid Module Sepcification**](https://github.com/openarsenalspecs/Civic-Tech/blob/857a72ef17a183bc91b42d3b7e1701823aa49216/NeuroGrid.md)    
+  [https://roxanneardary.com/neurogrid/](https://roxanneardary.com/neurogrid/)   
+  A modular, open-source autonomous intelligence protocol for coordinating multi-agent AI swarms with verifiable execution, structured collaboration, and specification-driven integrity.  
 
 - **Nimbus**  
   [https://roxanneardary.com/nimbus/](https://roxanneardary.com/nimbus/)  
