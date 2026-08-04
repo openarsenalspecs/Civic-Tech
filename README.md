@@ -178,7 +178,7 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/intellitunnel/](https://roxanneardary.com/intellitunnel/)  
   An adaptive multi-path networking system that continuously finds the fastest and most reliable connection using parallel routing, predictive optimization, and instant failover.
 
-- **IntentGraph**  
+- [**IntentGraph Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/21a349bb3c1c0a4eb95485834b97e055e2e6d62c/IntentGraph.md)    
   [https://roxanneardary.com/intentgraph/](https://roxanneardary.com/intentgraph/)  
   An open-source AI-powered privacy intelligence system that detects cookies and trackers, maps their data-sharing relationships, and explains their intent in real time.
 
