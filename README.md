@@ -62,7 +62,7 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/bridgebuddy/](https://roxanneardary.com/bridgebuddy/)  
   A secure, AI-guided platform that helps senior citizens navigate government services through simple, step-by-step assistance with accessibility-first design.
 
-- **BuildOracle**  
+- [**BuildOracle Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/ceb0ef91b43f6ee72035e2b832a8a22f9dc71bca/BuildOracle.md)    
   [https://roxanneardary.com/buildoracle/](https://roxanneardary.com/buildoracle/)  
   An open-source AI-powered zoning and environmental simulation platform that evaluates building projects for compliance, impact, and sustainability before approval.
 
