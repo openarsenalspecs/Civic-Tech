@@ -310,9 +310,9 @@ OpenBirth Platform is an open source demographic intelligence system designed to
   [https://roxanneardary.com/revealai/](https://roxanneardary.com/revealai/)  
   An open-source platform that uses AI to analyze and explain how algorithms shape what you see online, making hidden ranking and recommendation systems transparent and understandable. AGPLv3
 
-- **Road Systems Watch**  
+- [**Road Systems Watch Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/ba44f68dc161d0c39abd3d0ca07cfd42f0ab7758/Road%20Systems%20Watch.md)    
   [https://roxanneardary.com/road-systems-watch/](https://roxanneardary.com/road-systems-watch/)  
-  An open-source civic infrastructure platform that maps, tracks, and explains road construction activity, funding flows, and contractor involvement across jurisdictions as a living record of public infrastructure.
+  An open-source civic infrastructure platform that maps, tracks, and explains road construction activity, funding flows, and contractor involvement across jurisdictions as a living record of public infrastructure.  
 
 - **Sapient Eval**  
   [https://roxanneardary.com/sapient-eval/](https://roxanneardary.com/sapient-eval/)  
