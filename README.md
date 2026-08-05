@@ -238,9 +238,9 @@ OpenBirth Platform is an open source demographic intelligence system designed to
   [https://gitlab.com/Roxanne_Ardary/opencareerforecast](https://gitlab.com/Roxanne_Ardary/opencareerforecast)  
   An AGPL 3.0+ open-source career intelligence platform that helps users discover the true cost of their career path through education ROI analysis, cost-of-living comparisons, debt modeling, and future workforce forecasting.
 
-- **OpenEnergyOS**  
+- [**OpenEnergyOS Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/6cee27448ce471b9e83fc7e6279b7a13ce03690e/OpenEnergyOS.md)    
   [https://roxanneardary.com/openenergyos/](https://roxanneardary.com/openenergyos/)  
-  A specification-driven, modular energy transition platform for simulating, optimizing, and executing large-scale shifts away from oil dependency using physics-based, economic, and regulatory modeling.
+  A specification-driven, modular energy transition platform for simulating, optimizing, and executing large-scale shifts away from oil dependency using physics-based, economic, and regulatory modeling.  
 
 - **Open Intelligence Stack**  
   [https://roxanneardary.com/open-intelligence-stack/](https://roxanneardary.com/open-intelligence-stack/)  
