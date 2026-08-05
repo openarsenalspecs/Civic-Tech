@@ -122,9 +122,9 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/decisionai/](https://roxanneardary.com/decisionai/)  
   An open-source AI financial intelligence platform that simplifies investment disclosures, explains shareholder voting, and delivers forecasting and regulatory-aware insights to support informed financial decisions. AGPLv3
 
-- **Demographica**  
+- [**Demographica Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/bebb49df43d5036fb4e25da925271c64e7285fbe/Demographica.md)    
   [https://roxanneardary.com/demographica/](https://roxanneardary.com/demographica/)  
-  An open-source civic data platform that transforms government demographic datasets into interactive, searchable insights across locations worldwide.
+  An open-source civic data platform that transforms government demographic datasets into interactive, searchable insights across locations worldwide.  
 
 - **Earthmesh**  
   [https://roxanneardary.com/earthmesh/](https://roxanneardary.com/earthmesh/)  
