@@ -334,7 +334,7 @@ ScriptFlow is an open-source, multi-agent AI screenplay specification that trans
   [https://roxanneardary.com/solviaai/](https://roxanneardary.com/solviaai/)  
   An open-source AI platform for simulating, designing, and optimizing safe, zero-waste, disaster-resilient fusion reactor systems through collaborative global development. AGPLv3
 
-- **Solvra**  
+- [**Solvra Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/1f4c4c839a418c64b9b0df97467b53cb7a1424a2/Solvra.md)    
   [https://roxanneardary.com/solvra/](https://roxanneardary.com/solvra/)  
   A transparent engine for controlled amortization that models loans using a capped-interest system and evenly distributed payments across the full term.
 
