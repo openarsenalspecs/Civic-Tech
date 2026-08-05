@@ -182,6 +182,10 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/intentgraph/](https://roxanneardary.com/intentgraph/)  
   An open-source AI-powered privacy intelligence system that detects cookies and trackers, maps their data-sharing relationships, and explains their intent in real time.
 
+- [**Internal Credit Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/3df0641b0d47cd86b219a296a57410628b94fd0d/Internal%20Credit.md)  
+[https://roxanneardary.com/internal-credit/](https://roxanneardary.com/internal-credit/)  
+An AI-powered modular financial platform that enables users to borrow against their own savings while continuing to earn returns on deposited capital.
+
 - [**Kova Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/f0b3302e61d6dc4c7a3d0a93b1f3c35ac3c8dd50/Kova.md)    
   [https://roxanneardary.com/kova/](https://roxanneardary.com/kova/)  
   Guardrails for the AI era; a modular AI governance framework that enforces policy-driven control over AI, web access, and system-level actions across consumer and enterprise environments.
