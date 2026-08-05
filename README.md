@@ -242,9 +242,9 @@ OpenBirth Platform is an open source demographic intelligence system designed to
   [https://roxanneardary.com/open-intelligence-stack/](https://roxanneardary.com/open-intelligence-stack/)  
   Open Intelligence Stack (OIS) is a modular AI governance specification that structures multi-agent systems into specialized, human-supervised modules with built-in legal analysis, evidence scoring, and full provenance tracking. It ensures every decision is transparent, auditable, and compliant by design, with accountability enforced across all layers of the system.  
 
-- **OpenRange**  
+- [**OpenRange Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/3b562c57c0c8b8190f6391b52cf326e6e089250e/OpenRange.md)    
   [https://roxanneardary.com/openrange/](https://roxanneardary.com/openrange/)  
-  An open source civic intelligence platform that maps real-world affordability across every town and city in America and connects it to jobs, income, and opportunity through explainable AI.
+  An open source civic intelligence platform that maps real-world affordability across every town and city in America and connects it to jobs, income, and opportunity through explainable AI.  
 
 - [**OpenSkill Registry Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/414fc01e538320ba2aab03137087719e424a0568/OpenSkill%20Registry.md)    
   [https://roxanneardary.com/openskill-registry/](https://roxanneardary.com/openskill-registry/)  
