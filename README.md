@@ -314,7 +314,7 @@ OpenBirth Platform is an open source demographic intelligence system designed to
   [https://roxanneardary.com/road-systems-watch/](https://roxanneardary.com/road-systems-watch/)  
   An open-source civic infrastructure platform that maps, tracks, and explains road construction activity, funding flows, and contractor involvement across jurisdictions as a living record of public infrastructure.  
 
-- **Sapient Eval**  
+- [**Sapient Eval Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/89e2b84f74ca87148d17890f3eaa539e378cbb06/Sapient%20Eval.md)    
   [https://roxanneardary.com/sapient-eval/](https://roxanneardary.com/sapient-eval/)  
   An open-source, AGPL-3.0+ compliant benchmarking framework for empirically evaluating synthetic intelligence systems across accuracy, speed, efficiency, and reasoning performance.
 
