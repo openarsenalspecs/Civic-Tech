@@ -66,7 +66,7 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/buildoracle/](https://roxanneardary.com/buildoracle/)  
   An open-source AI-powered zoning and environmental simulation platform that evaluates building projects for compliance, impact, and sustainability before approval.
 
-- **BurpAlert**  
+- [**BurpAlert Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/7c85555e002380418ded8d29be54c1eca2a97e55/BurpAlert.md)    
   [https://roxanneardary.com/burpalert/](https://roxanneardary.com/burpalert/)  
   AI platform for volcano monitoring, tracking seismic activity, gas emissions, eruptions, and subtle volcanic sounds. AGPLv3
 
