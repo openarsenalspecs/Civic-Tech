@@ -294,7 +294,7 @@ OpenBirth Platform is an open source demographic intelligence system designed to
   [https://roxanneardary.com/pulsecheck/](https://roxanneardary.com/pulsecheck/)  
   A dynamic code intelligence platform that monitors runtime behavior to detect TODOs, anti-distillation tricks, and security or safety issues using AI-driven analysis. AGPLv3
 
-- **RAISE**  
+- [**RAISE Modular Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/a8d01f9deb5c1cdb262dc598dac97ddea7824b31/RAISE.md)    
   [https://roxanneardary.com/raise/](https://roxanneardary.com/raise/)  
   AI early warning system predicting hazards and delivering actionable alerts for floods, storms, wildfires, disease outbreaks, and more. AGPLv3
 
