@@ -258,7 +258,7 @@ OpenBirth Platform is an open source demographic intelligence system designed to
   [https://roxanneardary.com/operatorfirst/](https://roxanneardary.com/operatorfirst/)  
   An open-source, self-hosted observability platform with distributed probes, cryptographic verification, and consensus-based monitoring for operator-owned infrastructure. AGPLv3
 
-- **OrePulse**  
+- [**OrePulse Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/c4029139c0dbb3da08729f019822fce425869727/OrePulse.md)    
   [https://roxanneardary.com/orepulse/](https://roxanneardary.com/orepulse/)  
   Tracks magnetic minerals in the U.S. with geospatial data, corporate intelligence, and predictive analytics. AGPLv3
 
