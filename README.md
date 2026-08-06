@@ -222,9 +222,9 @@ An AI-powered modular financial platform that enables users to borrow against th
   [https://roxanneardary.com/neurogrid/](https://roxanneardary.com/neurogrid/)   
   A modular, open-source autonomous intelligence protocol for coordinating multi-agent AI swarms with verifiable execution, structured collaboration, and specification-driven integrity.  
 
-- **Nimbus**  
+- [**Nimbus Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/afd6575a404ec4472a2ba2a506a67e031679cd2f/Nimbus.md)    
   [https://roxanneardary.com/nimbus/](https://roxanneardary.com/nimbus/)  
-  An open-source global weather app providing hyperlocal forecasts, real-time updates, and verifiable data. AGPLv3
+  An open-source global weather app providing hyperlocal forecasts, real-time updates, and verifiable data. AGPLv3  
 
 - **Open Arsenal Codeberg**  
   [https://roxanneardary.com/open-arsenal-codeberg/](https://roxanneardary.com/open-arsenal-codeberg/)  
