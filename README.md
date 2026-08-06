@@ -326,9 +326,9 @@ OpenBirth Platform is an open source demographic intelligence system designed to
 [https://roxanneardary.com/scriptflow/](https://roxanneardary.com/scriptflow/)  
 ScriptFlow is an open-source, multi-agent AI screenplay specification that transforms diaries, journals, and personal experiences into cinematic stories through a modular content drill-down architecture. Powered by The Storytelling Swarm, it uses specialized AI agents to analyze characters, emotions, timelines, themes, and events to create feature films, television scripts, documentaries, and other narrative formats.
 
-- **SecureCivic**  
+- [**SecureCivic Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/371e641ad1c495c589aaac9f74629a8ba110e9c9/SecureCivic.md)    
   [https://roxanneardary.com/securecivic/](https://roxanneardary.com/securecivic/)  
-  A citizen-built, open source identity verification system designed for SSA adoption that enables privacy-first, real-time verification and fraud protection without reliance on private data brokers. AGPLv3
+  A citizen-built, open source identity verification system designed for SSA adoption that enables privacy-first, real-time verification and fraud protection without reliance on private data brokers. AGPLv3  
 
 - **Shoebox+**  
   [https://roxanneardary.com/shoebox/](https://roxanneardary.com/shoebox/)  
