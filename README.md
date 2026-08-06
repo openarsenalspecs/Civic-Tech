@@ -242,7 +242,7 @@ OpenBirth Platform is an open source demographic intelligence system designed to
   [https://roxanneardary.com/openenergyos/](https://roxanneardary.com/openenergyos/)  
   A specification-driven, modular energy transition platform for simulating, optimizing, and executing large-scale shifts away from oil dependency using physics-based, economic, and regulatory modeling.  
 
-- **Open Intelligence Stack**  
+- [**Open Intelligence Stack Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/9dc78c1920cb2446ac0b2d3b54ccc8b25a10121c/Open%20Intelligence%20Stack.md)    
   [https://roxanneardary.com/open-intelligence-stack/](https://roxanneardary.com/open-intelligence-stack/)  
   Open Intelligence Stack (OIS) is a modular AI governance specification that structures multi-agent systems into specialized, human-supervised modules with built-in legal analysis, evidence scoring, and full provenance tracking. It ensures every decision is transparent, auditable, and compliant by design, with accountability enforced across all layers of the system.  
 
