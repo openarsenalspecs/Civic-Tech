@@ -286,9 +286,9 @@ OpenBirth Platform is an open source demographic intelligence system designed to
   [https://roxanneardary.com/pressfixai/](https://roxanneardary.com/pressfixai/)  
   An open-source WordPress optimization engine that analyzes site performance, SEO, and Search Console issues to provide explainable, human-approved fix recommendations.
 
-- **Prudentia**  
+- [**Prudentia Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/ad19d882ae0063f0dbaee6994749893d05b78337/Prudentia.md)    
   [https://roxanneardary.com/prudentia/](https://roxanneardary.com/prudentia/)  
-  An open source Enterprise Strategic Intelligence Platform that helps organizations make explainable, long-term decisions by modeling consequences, risks, and business resilience before action is taken.
+  An open source Enterprise Strategic Intelligence Platform that helps organizations make explainable, long-term decisions by modeling consequences, risks, and business resilience before action is taken.  
 
 - **PulseCheck**  
   [https://roxanneardary.com/pulsecheck/](https://roxanneardary.com/pulsecheck/)  
