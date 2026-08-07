@@ -234,7 +234,7 @@ An AI-powered modular financial platform that enables users to borrow against th
 [https://roxanneardary.com/openbirth-platform/](https://roxanneardary.com/openbirth-platform/)  
 OpenBirth Platform is an open source demographic intelligence system designed to collect, validate, analyze, and visualize birth statistics across countries, states, provinces, municipalities, cities, towns, and communities worldwide. Built with a modular architecture, it provides transparent data infrastructure for researchers, governments, and organizations studying population trends through open demographic data.  
 
-- **OpenCareerForecast**  
+- [**OpenCareerForecast Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/004ef1d85130b8e7d81206c9e19822b89387ef89/OpenCareerForecast.md)    
   [https://gitlab.com/Roxanne_Ardary/opencareerforecast](https://gitlab.com/Roxanne_Ardary/opencareerforecast)  
   An AGPL 3.0+ open-source career intelligence platform that helps users discover the true cost of their career path through education ROI analysis, cost-of-living comparisons, debt modeling, and future workforce forecasting.
 
