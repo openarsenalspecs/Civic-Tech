@@ -34,7 +34,7 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/alignedmarkets/](https://roxanneardary.com/alignedmarkets/)  
   An open-source transparent equity market infrastructure project focused on verifiable trading, shareholder alignment, and accountable market mechanics.
 
-- **ArcaneBuild**  
+- [**ArcaneBuild Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/cbe1a05051624fb9d28ad54ad9d8f37dcba1f495/ArcaneBuild.md)    
   [https://roxanneardary.com/arcanebuild/](https://roxanneardary.com/arcanebuild/)  
   High-performance visual application builder with AI-assisted design and modular architecture. AGPLv3
 
