@@ -262,7 +262,7 @@ OpenBirth Platform is an open source demographic intelligence system designed to
   [https://roxanneardary.com/orepulse/](https://roxanneardary.com/orepulse/)  
   Tracks magnetic minerals in the U.S. with geospatial data, corporate intelligence, and predictive analytics. AGPLv3
 
-- **OriginType**  
+- [**OriginType Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/b2f1346b15713ac1e8f2cfbb77a1fd08c19a9ad1/OriginType.md)    
   [https://gitlab.com/Roxanne_Ardary/origintype](https://gitlab.com/Roxanne_Ardary/origintype)  
   An open-source AI handwriting tutor that teaches print, cursive, signature development, and typography through adaptive lessons, printable worksheets, and intelligent handwriting analysis.
 
