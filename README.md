@@ -198,6 +198,10 @@ An AI-powered modular financial platform that enables users to borrow against th
   [https://roxanneardary.com/littlecode/](https://roxanneardary.com/littlecode/)  
   AI design canvas converting natural language prompts into production-ready front-end code. AGPLv3
 
+- [**Loadly Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/625daf569aa8f1dc221f25637c4af01043d072fc/Loadly.md)  
+[https://roxanneardary.com/loadly/](https://roxanneardary.com/loadly/)  
+An open, modular freight marketplace specification that standardizes secure, transparent, and interoperable connections between shippers and verified independent carriers through bidding, tracking, compliance, and payment systems.
+
 - **LodgingMap**  
   [https://roxanneardary.com/lodgingmap/](https://roxanneardary.com/lodgingmap/)  
   An open-source civic data platform that maps extended-stay hotels across the United States and connects them to public records, ownership structures, and financing data.
