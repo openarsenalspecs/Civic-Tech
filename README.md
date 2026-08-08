@@ -106,9 +106,9 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/commonsprotocol/](https://roxanneardary.com/commonsprotocol/)  
   An open-source civic transparency platform that provides a federated, auditable public ledger for campaign finance, government spending, and civic accountability systems.
 
-- **ConstitutionTrace**  
+- [**ConstitutionTrace Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/738476eb5b4da8236be962866c1f3f727103c330/ConstitutionTrace.md)    
   [https://roxanneardary.com/constitutiontrace/](https://roxanneardary.com/constitutiontrace/)  
-  Structured-truth engine turning raw court records into verifiable, bias-resistant factual timelines. AGPLv3
+  ConstitutionTrace is an open-source, AI-assisted civic transparency platform that transforms verified court records and citizen testimony into structured, searchable data for analyzing judicial decisions, constitutional issues, and court outcomes.  
 
 - **CureLens**  
   [https://roxanneardary.com/curelens/](https://roxanneardary.com/curelens/)  
