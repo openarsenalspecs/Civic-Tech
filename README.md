@@ -80,23 +80,15 @@ Organizations are welcome to implement these specifications under their respecti
 
 - **ChameleonAI**  
   [https://roxanneardary.com/chameleonai/](https://roxanneardary.com/chameleonai/)  
-  An open-source, hardware-agnostic AI inference optimization engine that dynamically improves performance across any chip through adaptive, self-learning optimization and cross-platform execution. AGPLv3
-
-- **CivicLayer**  
-  [https://roxanneardary.com/civiclayer/](https://roxanneardary.com/civiclayer/)  
-  An open-source civic transparency system for generating, analyzing, and auditing district maps using population data, verified residency metrics, and fairness-based evaluation tools.
+  An open-source, hardware-agnostic AI inference optimization engine that dynamically improves performance across any chip through adaptive, self-learning optimization and cross-platform execution. AGPLv3  
 
 - **CharityLens**  
   [https://roxanneardary.com/charitylens/](https://roxanneardary.com/charitylens/)  
   An AI-powered, AGPL-3.0+ digital PR and charitable campaign system designed to help plan, validate, promote, and optimize fundraising efforts with transparency, compliance, and measurable impact.
 
-- **CommonsProtocol**  
-  [https://roxanneardary.com/commonsprotocol/](https://roxanneardary.com/commonsprotocol/)  
-  An open-source civic transparency platform that provides a federated, auditable public ledger for campaign finance, government spending, and civic accountability systems.
-
-- **CureLens**  
-  [https://roxanneardary.com/curelens/](https://roxanneardary.com/curelens/)  
-  An open-source platform that analyzes clinical trial data to compare placebo and treatment outcomes, flag anomalies, and uncover patterns in medical efficacy and natural response.
+- **CivicLayer**  
+  [https://roxanneardary.com/civiclayer/](https://roxanneardary.com/civiclayer/)  
+  An open-source civic transparency system for generating, analyzing, and auditing district maps using population data, verified residency metrics, and fairness-based evaluation tools.
 
 - **CivicTrust**  
   [https://roxanneardary.com/civictrust/](https://roxanneardary.com/civictrust/)  
@@ -106,13 +98,21 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/clearsignal/](https://roxanneardary.com/clearsignal/)  
   Maps telecom companies, infrastructure, ownership hierarchies, and coverage worldwide with transparent, verifiable data. AGPLv3
 
-- **CodexAtlas**  
+- [**CodexAtlas Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/83b62c66c2e7dc222e1febfdf38e31d9240994e1/CodexAtlas.md)    
   [https://roxanneardary.com/codexatlas/](https://roxanneardary.com/codexatlas/)  
   Hybrid AI connecting global legal systems to build a knowledge graph with predictive reasoning and public summaries. AGPLv3
+
+- **CommonsProtocol**  
+  [https://roxanneardary.com/commonsprotocol/](https://roxanneardary.com/commonsprotocol/)  
+  An open-source civic transparency platform that provides a federated, auditable public ledger for campaign finance, government spending, and civic accountability systems.
 
 - **ConstitutionTrace**  
   [https://roxanneardary.com/constitutiontrace/](https://roxanneardary.com/constitutiontrace/)  
   Structured-truth engine turning raw court records into verifiable, bias-resistant factual timelines. AGPLv3
+
+- **CureLens**  
+  [https://roxanneardary.com/curelens/](https://roxanneardary.com/curelens/)  
+  An open-source platform that analyzes clinical trial data to compare placebo and treatment outcomes, flag anomalies, and uncover patterns in medical efficacy and natural response.
 
 - **CurrenSee**  
   [https://roxanneardary.com/currensee/](https://roxanneardary.com/currensee/)  
