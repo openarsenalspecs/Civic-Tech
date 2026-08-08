@@ -74,7 +74,7 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/careeros-x/](https://roxanneardary.com/careeros-x/)  
   A modular, open-source AI engine that replicates and expands LinkedIn Premium features — without subscriptions — giving users full ownership of their professional data in a privacy-first, federated architecture.
 
-- **Carenex**  
+- [**Carenex Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/f9227f4f901da360c0e48e58aa30d98681dfb0c8/Carenex.md)    
   [https://roxanneardary.com/carenex/](https://roxanneardary.com/carenex/)  
   HIPAA-compliant AI platform helping users find optimal health insurance plans with predictive claims analysis. AGPLv3
 
