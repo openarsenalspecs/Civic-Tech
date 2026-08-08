@@ -118,7 +118,7 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/currensee/](https://roxanneardary.com/currensee/)  
   An open-source platform that reveals the corporate ownership and complete supply chain behind all U.S. energy sources. AGPLv3
 
-- **DecisionAI**  
+- [**DecisionAI Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/cc54ae281b8834cbc269fcc416465e6dd5ec118c/DecisionAI.md)    
   [https://roxanneardary.com/decisionai/](https://roxanneardary.com/decisionai/)  
   An open-source AI financial intelligence platform that simplifies investment disclosures, explains shareholder voting, and delivers forecasting and regulatory-aware insights to support informed financial decisions. AGPLv3
 
