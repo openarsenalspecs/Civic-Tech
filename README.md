@@ -50,7 +50,7 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/axiomcase/](https://roxanneardary.com/axiomcase/)  
   A modular, state-aware consumer dispute intelligence system that structures complaints, maps them to U.S. consumer protection laws, and generates actionable resolution pathways.
 
-- **BlockadeAI**  
+- [**BlockadeAI Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/3cf5a89aba7c66041a29caf28a82134542655f2a/BlockadeAI.md)    
   [https://roxanneardary.com/blockadeai/](https://roxanneardary.com/blockadeai/)  
   AI defense system protecting websites from DoS/DDoS attacks with predictive mitigation. AGPLv3
 
