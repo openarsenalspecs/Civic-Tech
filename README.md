@@ -126,7 +126,7 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/demographica/](https://roxanneardary.com/demographica/)  
   An open-source civic data platform that transforms government demographic datasets into interactive, searchable insights across locations worldwide.  
 
-- **Earthmesh**  
+- [**Earthmesh Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/1240a16dfcdcc484d3287acd1c7b05cd5792616b/EarthMesh.md)    
   [https://roxanneardary.com/earthmesh/](https://roxanneardary.com/earthmesh/)  
   Environmental intelligence platform monitoring air, water, soil, noise, and flood conditions in real-time with predictive analytics. AGPLv3
 
