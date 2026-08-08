@@ -130,9 +130,9 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/earthmesh/](https://roxanneardary.com/earthmesh/)  
   Environmental intelligence platform monitoring air, water, soil, noise, and flood conditions in real-time with predictive analytics. AGPLv3
 
-- **EquaWorld**  
+- [**EquaWorld Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/0750d8001e0bd1be8b794a76b9833db6543dbb5b/EquaWorld.md)    
   [https://roxanneardary.com/equaworld/](https://roxanneardary.com/equaworld/)  
-  Desktop app calculating lifecycle costs of products/services and distributing costs fairly per user. AGPLv3
+  EquaWorld is an open-source AI-powered lifecycle cost analysis and allocation system that calculates production, maintenance, repair, and replacement costs and transparently distributes them among users based on geography, population, usage, and defined profit margins.
 
 - **EternaSphere**  
   [https://roxanneardary.com/eternasphere/](https://roxanneardary.com/eternasphere/)  
