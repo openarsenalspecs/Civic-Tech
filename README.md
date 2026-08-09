@@ -258,7 +258,7 @@ OpenBirth Platform is an open source demographic intelligence system designed to
   [https://roxanneardary.com/openskill-registry/](https://roxanneardary.com/openskill-registry/)  
   A privacy-first, AI-powered open-source platform that connects verified individuals with real-world skills to local, short-term, and flexible work opportunities.
 
-- **OperatorFirst**  
+- [**OperatorFirst Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/e1ec9e8bfda549193873ee041b72ebbbbe9293d2/OperatorFirst.md)    
   [https://roxanneardary.com/operatorfirst/](https://roxanneardary.com/operatorfirst/)  
   An open-source, self-hosted observability platform with distributed probes, cryptographic verification, and consensus-based monitoring for operator-owned infrastructure. AGPLv3
 
