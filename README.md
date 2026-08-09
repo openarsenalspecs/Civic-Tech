@@ -370,6 +370,10 @@ ScriptFlow is an open-source, multi-agent AI screenplay specification that trans
   [https://roxanneardary.com/umbrix/](https://roxanneardary.com/umbrix/)  
   Open-source VPN with multi-node chaining, AI-assisted privacy, and post-quantum-ready cryptography. AGPLv3
 
+- [**Universal Appliance Standard Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/e1cf277d8492875b1a96e39be23bf5719d80f213/Universal%20Appliance%20Standard.md)  
+[https://roxanneardary.com/universal-appliance-standard/](https://roxanneardary.com/universal-appliance-standard/)  
+The Universal Appliance Standard (UAS) is an open-source framework for designing modular, customizable, energy-efficient appliances using virtual-first CAD, standardized engineering, advanced materials, and reproducible testing. It enables appliances to be locally manufactured, AI-assisted in sourcing and assembly, repaired, upgraded, and continuously improved through a shared open-source ecosystem.
+
 - [**Zentis Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/478d572676912516b61d82748c0ae414b34f9952/Zentis.md)    
   [https://roxanneardary.com/zentis/](https://roxanneardary.com/zentis/)  
   Infrastructure for interpretive governance, separating platform policy analysis from probabilistic legal risk modeling with transparent, explainable outputs.
