@@ -194,7 +194,7 @@ An AI-powered modular financial platform that enables users to borrow against th
   [https://roxanneardary.com/leasetrack/](https://roxanneardary.com/leasetrack/)  
   An open source AI platform that analyzes U.S. rental markets to identify affordability gaps, ownership patterns, and landlord compliance issues. AGPLv3
 
-- **LittleCode**  
+- [**LittleCode Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/b5326a00510c054ca5e4e69cd780ae486ea719ca/LittleCode.md)    
   [https://roxanneardary.com/littlecode/](https://roxanneardary.com/littlecode/)  
   AI design canvas converting natural language prompts into production-ready front-end code. AGPLv3
 
