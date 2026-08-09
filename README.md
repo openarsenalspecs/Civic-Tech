@@ -166,7 +166,7 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/ideasphere/](https://roxanneardary.com/ideasphere/)  
   An open-source AI-powered platform that maps the evolution of scientific ideas, publications, patents, and breakthroughs, visualizing the global tree of human knowledge with full attribution to contributors.
 
-- **Immutable**  
+- [**Immutable Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/3a30d2ea59bfb56ece4b2b153ae960e520e39929/Immutable.md)    
   [https://roxanneardary.com/immutable/](https://roxanneardary.com/immutable/)  
   An open-source, encrypted life tracking and identity record system designed to securely preserve, verify, and unify citizen records across legal, governmental, and historical systems. AGPLv3
 
