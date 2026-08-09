@@ -170,7 +170,7 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/immutable/](https://roxanneardary.com/immutable/)  
   An open-source, encrypted life tracking and identity record system designed to securely preserve, verify, and unify citizen records across legal, governmental, and historical systems. AGPLv3
 
-- **InfraOpen**  
+- [**InfraOpen Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/dec3fa13840a453b38cdfb76a14695f307594a1f/InfraOpen.md)    
   [https://roxanneardary.com/infraopen/](https://roxanneardary.com/infraopen/)  
   Open-source platform providing state-by-state electricity and internet provider profiles, compliance, and sustainability metrics. AGPLv3
 
