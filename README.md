@@ -318,9 +318,9 @@ An open-source, graph-native manufacturing intelligence platform that connects e
   [https://roxanneardary.com/retailhub/](https://roxanneardary.com/retailhub/)  
   A modular AI-powered Commerce Operating System that connects customers with products through intelligent search, recommendations, automation, and retail intelligence.
 
-- **RevealAI**  
+- [**RevealAI Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/69b5c2d6d81ad108fda959204b843a212bb41511/RevealAI.md)    
   [https://roxanneardary.com/revealai/](https://roxanneardary.com/revealai/)  
-  An open-source platform that uses AI to analyze and explain how algorithms shape what you see online, making hidden ranking and recommendation systems transparent and understandable. AGPLv3
+  An open-source platform that uses AI to analyze and explain how algorithms shape what you see online, making hidden ranking and recommendation systems transparent and understandable. 
 
 - [**Road Systems Watch Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/ba44f68dc161d0c39abd3d0ca07cfd42f0ab7758/Road%20Systems%20Watch.md)    
   [https://roxanneardary.com/road-systems-watch/](https://roxanneardary.com/road-systems-watch/)  
