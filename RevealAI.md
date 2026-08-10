@@ -1420,15 +1420,4 @@ Please note the following:
 - When submitting a pull request, ensure that any new files maintain the attribution headers where applicable.
 - Network-deployed versions of this software must also remain fully AGPL-3.0+ compliant, including exposure of source code modifications when applicable under the license.
 
-For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.
-
----
-
-## 💡 Why RevealAI Matters
-
-- Exposes hidden algorithmic bias, manipulation, and suppression.  
-- Empowers independent creators, journalists, and researchers.  
-- Provides **actionable insights** into the systems controlling digital visibility.  
-- Creates a **community-governed, open-source platform** for continuous improvement.  
-
-> **End pay-to-play. End hidden favoritism. Level the digital playing field with RevealAI.**  
+For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.  
