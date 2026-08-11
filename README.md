@@ -314,7 +314,7 @@ An open-source, graph-native manufacturing intelligence platform that connects e
   [https://roxanneardary.com/resource-atlas/](https://roxanneardary.com/resource-atlas/)  
   An open-source intelligence platform that helps nations and communities identify resources, reduce dependencies, close workforce and infrastructure gaps, and generate 36-month revitalization roadmaps focused on resilience, self-sufficiency, and local prosperity.
 
-- **RetailHub**  
+- [**RetailHub Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/320d943a75467eac34add7429d0bc1243a8b4bc2/RetailHub.md)    
   [https://roxanneardary.com/retailhub/](https://roxanneardary.com/retailhub/)  
   A modular AI-powered Commerce Operating System that connects customers with products through intelligent search, recommendations, automation, and retail intelligence.
 
