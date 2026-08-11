@@ -338,7 +338,7 @@ ScriptFlow is an open-source, multi-agent AI screenplay specification that trans
   [https://roxanneardary.com/securecivic/](https://roxanneardary.com/securecivic/)  
   A citizen-built, open source identity verification system designed for SSA adoption that enables privacy-first, real-time verification and fraud protection without reliance on private data brokers. AGPLv3  
 
-- **Shoebox+**  
+- [**Shoebox+ Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/e31ef264a0cfabddd9afdc825a5c6c5a3d3bb09e/Shoebox.md)    
   [https://roxanneardary.com/shoebox/](https://roxanneardary.com/shoebox/)  
   AI platform maximizing Health Savings Account benefits with tracking, IRS compliance, and investment recommendations. AGPLv3
 
