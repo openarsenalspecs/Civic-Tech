@@ -370,7 +370,7 @@ ScriptFlow is an open-source, multi-agent AI screenplay specification that trans
   [https://roxanneardary.com/trueowneros/](https://roxanneardary.com/trueowneros/)  
   An open-source AI-powered infrastructure transparency platform that maps mission-critical corporate properties and reveals the true ownership structures behind them.
 
-- **Umbrix**  
+- [**Umbrix Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/471802e162ad713d752eb3dd11dc0a2ee58f4619/Umbrix.md)    
   [https://roxanneardary.com/umbrix/](https://roxanneardary.com/umbrix/)  
   Open-source VPN with multi-node chaining, AI-assisted privacy, and post-quantum-ready cryptography. AGPLv3
 
