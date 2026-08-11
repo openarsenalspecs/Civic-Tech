@@ -366,6 +366,10 @@ ScriptFlow is an open-source, multi-agent AI screenplay specification that trans
   [https://roxanneardary.com/tokencycle/](https://roxanneardary.com/tokencycle/)  
   An open-source circular infrastructure platform that transforms urban waste systems into integrated networks for recycling, composting, energy recovery, and tokenized community rewards.
 
+- [**TransitMemory Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/14c67f6120c82a2af40a9eef1e04ff68777b535f/TransitMemory.md)  
+[https://roxanneardary.com/transitmemory/](https://roxanneardary.com/transitmemory/)  
+TransitMemory is an open source specification for custom transportation systems with intelligent routing, ETA and traffic intelligence, route optimization, driver knowledge, daily stop management, and institutional transportation memory. Its modular architecture allows organizations to build customized communication and operational modules while extending the Core with optional plugins for real-time tracking, GPS, mapping, traffic, weather, fleet management, and AI-powered transportation analysis.  
+
 - [**TrueOwnerOS Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/9b11a5e0031129cc2d27c7565c0563ba9efb3552/TrueOwnerOS.md)  
   [https://roxanneardary.com/trueowneros/](https://roxanneardary.com/trueowneros/)  
   An open-source AI-powered infrastructure transparency platform that maps mission-critical corporate properties and reveals the true ownership structures behind them.
