@@ -138,9 +138,9 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/eternasphere/](https://roxanneardary.com/eternasphere/)  
   An open-source AI system designed to model global economic, environmental, and social systems to support equitable resource distribution, sustainability, and long-term planetary resilience. AGPLv3
 
-- **FlexiPrice**  
+- [**FlexiPrice Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/9b066ab5a9e6786caf7494a959dd2e4b87415bd6/FlexiPrice.md)    
   [https://roxanneardary.com/flexiprice/](https://roxanneardary.com/flexiprice/)  
-  An open-source, modular dynamic pricing platform that provides real-time market intelligence, automated pricing recommendations, competitive pricing strategies, and customizable industry-specific modules for intelligent pricing across real estate, retail, services, and other markets.
+  An open-source, modular dynamic pricing platform that provides real-time market intelligence, automated pricing recommendations, competitive pricing strategies, and customizable industry-specific modules for intelligent pricing across real estate, retail, services, and other markets.  
 
 - [**Fundamenta Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/c253b5b4d2c3603677eec8d76f8c978ab2c0fbf4/Fundamenta.md)    
   [https://roxanneardary.com/fundamenta/](https://roxanneardary.com/fundamenta/)  
