@@ -278,9 +278,9 @@ OpenBirth Platform is an open source demographic intelligence system designed to
   [https://roxanneardary.com/philanthrometrics/](https://roxanneardary.com/philanthrometrics/)  
   An open-source platform that analyzes nonprofit financial disclosures and public communications to measure charitable impact with transparent, reproducible metrics. AGPLv3
 
-- **Phonic**  
+- [**Phonic Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/aa1def2d3b10773e0b0bd38deba2cfb21fa4265a/Phonic.md)    
   [https://roxanneardary.com/phonic/](https://roxanneardary.com/phonic/)  
-  An open-source AI-powered call interception system that detects and blocks robocalls, transcribes voicemails, and intelligently manages all incoming and outgoing phone communications. AGPLv3
+  An open-source AI-powered call interception system that detects and blocks robocalls, transcribes voicemails, and intelligently manages all incoming and outgoing phone communications. AGPLv3  
 
 - **PlotLedger**  
   [https://roxanneardary.com/plotledger/](https://roxanneardary.com/plotledger/)  
