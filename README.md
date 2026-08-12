@@ -126,7 +126,7 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/demographica/](https://roxanneardary.com/demographica/)  
   An open-source civic data platform that transforms government demographic datasets into interactive, searchable insights across locations worldwide.
 
-- **Distributed Manufacturing Infrastructure**
+- [**Distributed Manufacturing Infrastructure Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/a820990c61ea57dede52af73c7ef50e7999d5259/Distributed%20Manufacturing%20Infrastructure.md)  
 [https://roxanneardary.com/distributed-manufacturing-infrastructure/](https://roxanneardary.com/distributed-manufacturing-infrastructure/)  
 Distributed Manufacturing Infrastructure is an open-source specification for transforming traditional manufacturing plants into shared, rentable industrial facilities where independent engineers, inventors, startups, and manufacturers can access machinery, robotics, production space, engineering resources, and manufacturing services. Its modular architecture combines AI-assisted facility conversion, advanced scheduling, pricing, finance, manufacturing, quality, safety, intellectual property, equipment marketplaces, shipping, and distributed manufacturing networks.  
 
