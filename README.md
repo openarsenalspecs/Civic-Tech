@@ -78,7 +78,7 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/carenex/](https://roxanneardary.com/carenex/)  
   HIPAA-compliant AI platform helping users find optimal health insurance plans with predictive claims analysis. AGPLv3
 
-- **ChameleonAI**  
+- [**ChameleonAI Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/00cc26496681614a8f7775cd6b59103f562ae5e7/ChameleonAI.md)    
   [https://roxanneardary.com/chameleonai/](https://roxanneardary.com/chameleonai/)  
   An open-source, hardware-agnostic AI inference optimization engine that dynamically improves performance across any chip through adaptive, self-learning optimization and cross-platform execution. AGPLv3  
 
