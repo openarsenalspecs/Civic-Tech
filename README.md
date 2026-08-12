@@ -342,7 +342,7 @@ ScriptFlow is an open-source, multi-agent AI screenplay specification that trans
   [https://roxanneardary.com/shoebox/](https://roxanneardary.com/shoebox/)  
   AI platform maximizing Health Savings Account benefits with tracking, IRS compliance, and investment recommendations. AGPLv3
 
-- **Solvia AI**  
+- [**Solvia AI Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/23f4b344406257f1eb1b5be6939bc969da2e293e/Solvia%20AI.md)    
   [https://roxanneardary.com/solviaai/](https://roxanneardary.com/solviaai/)  
   An open-source AI platform for simulating, designing, and optimizing safe, zero-waste, disaster-resilient fusion reactor systems through collaborative global development. AGPLv3
 
