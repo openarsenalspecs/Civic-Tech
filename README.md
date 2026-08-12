@@ -382,6 +382,10 @@ TransitMemory is an open source specification for custom transportation systems 
 [https://roxanneardary.com/universal-appliance-standard/](https://roxanneardary.com/universal-appliance-standard/)  
 The Universal Appliance Standard (UAS) is an open-source framework for designing modular, customizable, energy-efficient appliances using virtual-first CAD, standardized engineering, advanced materials, and reproducible testing. It enables appliances to be locally manufactured, AI-assisted in sourcing and assembly, repaired, upgraded, and continuously improved through a shared open-source ecosystem.
 
+- [**World Expedition Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/e91333c17ca2a293c30abd287c320c57e31d5373/World%20Expedition.md)  
+[https://roxanneardary.com/world-expedition/](https://roxanneardary.com/world-expedition/)  
+World Expedition is an open source higher education specification that uses AI to connect students' academic and career goals with real-world destinations, historical perspectives, professional experiences, and emerging opportunities. Its modular architecture transforms travel and exploration into structured experiential learning through AI-assisted journey planning, firsthand observation, reflection, assessment, and career development.  
+
 - [**Zentis Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/478d572676912516b61d82748c0ae414b34f9952/Zentis.md)    
   [https://roxanneardary.com/zentis/](https://roxanneardary.com/zentis/)  
   Infrastructure for interpretive governance, separating platform policy analysis from probabilistic legal risk modeling with transparent, explainable outputs.
