@@ -134,7 +134,7 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/equaworld/](https://roxanneardary.com/equaworld/)  
   EquaWorld is an open-source AI-powered lifecycle cost analysis and allocation system that calculates production, maintenance, repair, and replacement costs and transparently distributes them among users based on geography, population, usage, and defined profit margins.
 
-- **EternaSphere**  
+- [**EternaSphere Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/c1c14818c07703c6a931ead4e0f8c4b302a032ab/EternaSphere.md)    
   [https://roxanneardary.com/eternasphere/](https://roxanneardary.com/eternasphere/)  
   An open-source AI system designed to model global economic, environmental, and social systems to support equitable resource distribution, sustainability, and long-term planetary resilience. AGPLv3
 
