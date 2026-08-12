@@ -162,9 +162,9 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/habitasense/](https://roxanneardary.com/habitasense/)  
   An open-source AI-powered platform that delivers transparent, data-driven analysis of rental and home ownership markets. AGPLv3
 
-- **IdeaSphere**  
+- [**IdeaSphere Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/4fbe0af18073ce823ac626ffd0a1fb25bb4434b4/IdeaSphere.md)    
   [https://roxanneardary.com/ideasphere/](https://roxanneardary.com/ideasphere/)  
-  An open-source AI-powered platform that maps the evolution of scientific ideas, publications, patents, and breakthroughs, visualizing the global tree of human knowledge with full attribution to contributors.
+  An open-source AI-powered platform that maps the evolution of scientific ideas, publications, patents, and breakthroughs, visualizing the global tree of human knowledge with full attribution to contributors.  
 
 - [**Immutable Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/3a30d2ea59bfb56ece4b2b153ae960e520e39929/Immutable.md)    
   [https://roxanneardary.com/immutable/](https://roxanneardary.com/immutable/)  
