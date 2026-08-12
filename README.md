@@ -124,7 +124,11 @@ Organizations are welcome to implement these specifications under their respecti
 
 - [**Demographica Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/bebb49df43d5036fb4e25da925271c64e7285fbe/Demographica.md)    
   [https://roxanneardary.com/demographica/](https://roxanneardary.com/demographica/)  
-  An open-source civic data platform that transforms government demographic datasets into interactive, searchable insights across locations worldwide.  
+  An open-source civic data platform that transforms government demographic datasets into interactive, searchable insights across locations worldwide.
+
+- **Distributed Manufacturing Infrastructure**
+[https://roxanneardary.com/distributed-manufacturing-infrastructure/](https://roxanneardary.com/distributed-manufacturing-infrastructure/)  
+Distributed Manufacturing Infrastructure is an open-source specification for transforming traditional manufacturing plants into shared, rentable industrial facilities where independent engineers, inventors, startups, and manufacturers can access machinery, robotics, production space, engineering resources, and manufacturing services. Its modular architecture combines AI-assisted facility conversion, advanced scheduling, pricing, finance, manufacturing, quality, safety, intellectual property, equipment marketplaces, shipping, and distributed manufacturing networks.  
 
 - [**Earthmesh Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/1240a16dfcdcc484d3287acd1c7b05cd5792616b/EarthMesh.md)    
   [https://roxanneardary.com/earthmesh/](https://roxanneardary.com/earthmesh/)  
