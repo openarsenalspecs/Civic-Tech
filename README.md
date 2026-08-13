@@ -90,7 +90,7 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/civiclayer/](https://roxanneardary.com/civiclayer/)  
   An open-source civic transparency system for generating, analyzing, and auditing district maps using population data, verified residency metrics, and fairness-based evaluation tools.
 
-- **CivicTrust**  
+- [**CivicTrust Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/b6730dd352526404a36be05ddbea6d879531ca2d/CivicTrust.md)    
   [https://roxanneardary.com/civictrust/](https://roxanneardary.com/civictrust/)  
   A privacy-first, open-source accountability layer that ensures autonomous agents have verifiable identities, human-anchored stewardship, traceable actions, and enforceable rules.
 
