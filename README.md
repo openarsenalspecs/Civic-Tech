@@ -82,9 +82,9 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/chameleonai/](https://roxanneardary.com/chameleonai/)  
   An open-source, hardware-agnostic AI inference optimization engine that dynamically improves performance across any chip through adaptive, self-learning optimization and cross-platform execution. AGPLv3  
 
-- **CharityLens**  
+- [**CharityLens Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/7e67ccfd9cd44375b7ebc78c287df4ea5f1030d7/CharityLens.md)    
   [https://roxanneardary.com/charitylens/](https://roxanneardary.com/charitylens/)  
-  An AI-powered, AGPL-3.0+ digital PR and charitable campaign system designed to help plan, validate, promote, and optimize fundraising efforts with transparency, compliance, and measurable impact.
+  An AI-powered, AGPL-3.0+ digital PR and charitable campaign system designed to help plan, validate, promote, and optimize fundraising efforts with transparency, compliance, and measurable impact.  
 
 - **CivicLayer**  
   [https://roxanneardary.com/civiclayer/](https://roxanneardary.com/civiclayer/)  
