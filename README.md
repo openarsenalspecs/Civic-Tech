@@ -46,9 +46,9 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/authensia/](https://roxanneardary.com/authensia/)  
   An open-source systemic file storage platform focused on immutable verification, end-to-end encryption, and preserving digital ownership through trusted authorship records.
 
-- **AxiomCase**  
+- [**AxiomCase Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/c594eede61d5a999dbdafbdaf7af9f5225ae6bc1/AxiomCase.md)    
   [https://roxanneardary.com/axiomcase/](https://roxanneardary.com/axiomcase/)  
-  A modular, state-aware consumer dispute intelligence system that structures complaints, maps them to U.S. consumer protection laws, and generates actionable resolution pathways.
+  A modular, state-aware consumer dispute intelligence system that structures complaints, maps them to U.S. consumer protection laws, and generates actionable resolution pathways.  
 
 - [**BlockadeAI Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/3cf5a89aba7c66041a29caf28a82134542655f2a/BlockadeAI.md)    
   [https://roxanneardary.com/blockadeai/](https://roxanneardary.com/blockadeai/)  
