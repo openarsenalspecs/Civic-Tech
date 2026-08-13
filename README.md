@@ -110,9 +110,9 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/constitutiontrace/](https://roxanneardary.com/constitutiontrace/)  
   ConstitutionTrace is an open-source, AI-assisted civic transparency platform that transforms verified court records and citizen testimony into structured, searchable data for analyzing judicial decisions, constitutional issues, and court outcomes.  
 
-- **CureLens**  
+- [**CureLens Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/737498768914af0e208d465717966c4d0da58010/CureLens.md)    
   [https://roxanneardary.com/curelens/](https://roxanneardary.com/curelens/)  
-  An open-source platform that analyzes clinical trial data to compare placebo and treatment outcomes, flag anomalies, and uncover patterns in medical efficacy and natural response.
+  An open-source platform that analyzes clinical trial data to compare placebo and treatment outcomes, flag anomalies, and uncover patterns in medical efficacy and natural response.  
 
 - **CurrenSee**  
   [https://roxanneardary.com/currensee/](https://roxanneardary.com/currensee/)  
