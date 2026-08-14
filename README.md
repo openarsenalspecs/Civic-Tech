@@ -366,9 +366,9 @@ ScriptFlow is an open-source, multi-agent AI screenplay specification that trans
   [https://roxanneardary.com/syntara/](https://roxanneardary.com/syntara/)  
   A Vendor Independence Operating System that models enterprise infrastructure, detects vendor lock-in, and generates safe, reversible migration pathways toward infrastructure autonomy.
 
-- [**TokenCycle 2.0 Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/8e420cecdfc7620ef4e98e0298576449758a11c8/TokenCycle.md)    
+- [**TokenCycle 2.0 Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/34186c0a94e1189b7a5574736a1990229493d9c3/TokenCycle.md)    
   [https://roxanneardary.com/tokencycle/](https://roxanneardary.com/tokencycle/)  
-  An open-source circular infrastructure platform that transforms urban waste systems into integrated networks for recycling, composting, energy recovery, and tokenized community rewards.
+  An open-source circular infrastructure platform that transforms urban waste systems into integrated networks for recycling, composting, energy recovery, and tokenized community rewards.  
 
 - [**TransitMemory Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/14c67f6120c82a2af40a9eef1e04ff68777b535f/TransitMemory.md)  
 [https://roxanneardary.com/transitmemory/](https://roxanneardary.com/transitmemory/)  
