@@ -1,6 +1,6 @@
 # TrueOwnerOS Specification
 **Bringing Ownership Out of the Shadows.**
-
+HTML Mirror:  [https://roxanneardary.com/trueowneros-specification/](https://roxanneardary.com/trueowneros-specification/)  
 ---
 
 ## Purpose
