@@ -222,9 +222,9 @@ An open, modular freight marketplace specification that standardizes secure, tra
   [https://roxanneardary.com/molecularai/](https://roxanneardary.com/molecularai/)  
   An open-source modular platform for molecular intelligence, gene therapy research, nanotechnology, digital twins, autonomous scientific discovery, and advanced molecular design.
 
-- **NeuraTrust**  
+- [**NeuraTrust Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/3eb48917b7837cef45c29b5bc4fbdf36508cd9a1/NeuraTrust.md)    
   [https://roxanneardary.com/neuratrust/](https://roxanneardary.com/neuratrust/)  
-  An open-source, human-accountable AI platform focused on transparent governance, provable safety, and auditable intelligence systems.
+  An open-source, human-accountable AI platform focused on transparent governance, provable safety, and auditable intelligence systems.  
 
 - [**NeuroGrid Module Sepcification**](https://github.com/openarsenalspecs/Civic-Tech/blob/857a72ef17a183bc91b42d3b7e1701823aa49216/NeuroGrid.md)    
   [https://roxanneardary.com/neurogrid/](https://roxanneardary.com/neurogrid/)   
