@@ -374,9 +374,9 @@ ScriptFlow is an open-source, multi-agent AI screenplay specification that trans
 [https://roxanneardary.com/transitmemory/](https://roxanneardary.com/transitmemory/)  
 TransitMemory is an open source specification for custom transportation systems with intelligent routing, ETA and traffic intelligence, route optimization, driver knowledge, daily stop management, and institutional transportation memory. Its modular architecture allows organizations to build customized communication and operational modules while extending the Core with optional plugins for real-time tracking, GPS, mapping, traffic, weather, fleet management, and AI-powered transportation analysis.  
 
-- [**TrueOwnerOS Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/9b11a5e0031129cc2d27c7565c0563ba9efb3552/TrueOwnerOS.md)  
+- [**TrueOwnerOS Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/1d14a88fe035609a9ba8090d313213dd8fca1332/TrueOwnerOS.md)  
   [https://roxanneardary.com/trueowneros/](https://roxanneardary.com/trueowneros/)  
-  An open-source AI-powered infrastructure transparency platform that maps mission-critical corporate properties and reveals the true ownership structures behind them.
+  An open-source AI-powered infrastructure transparency platform that maps mission-critical corporate properties and reveals the true ownership structures behind them.  
 
 - [**Umbrix Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/471802e162ad713d752eb3dd11dc0a2ee58f4619/Umbrix.md)    
   [https://roxanneardary.com/umbrix/](https://roxanneardary.com/umbrix/)  
