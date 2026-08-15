@@ -1,6 +1,8 @@
 # Fundamenta
+**Empowering Citizens Through Open Finance**
+- HTML Mirror: [https://roxanneardary.com/fundamenta-specification/](https://roxanneardary.com/fundamenta-specification/)
 
-## Empowering Citizens Through Open Finance
+---
 
 ## Overview
 
@@ -445,20 +447,3 @@ Please note the following:
 - Network-deployed versions of this software must also remain fully AGPL-3.0+ compliant, including exposure of source code modifications when applicable under the license.
 
 For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.
----
-
-# Mission
-
-Fundamenta exists to ensure that:
-
-Every budget is transparent
-
-Every transaction is accountable
-
-Every inefficiency is identified
-
-Every citizen has visibility into public finance
-
----
-
-Fundamenta — Empowering Citizens Through Open Finance
