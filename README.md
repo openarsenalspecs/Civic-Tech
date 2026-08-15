@@ -210,7 +210,7 @@ An open, modular freight marketplace specification that standardizes secure, tra
   [https://roxanneardary.com/lodgingmap/](https://roxanneardary.com/lodgingmap/)  
   An open-source civic data platform that maps extended-stay hotels across the United States and connects them to public records, ownership structures, and financing data.
 
-- **MachinaCore**  
+- [**MachinaCore Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/7e74828f6b785e61970d01c464847021d56fbfc3/MachinaCore.md)    
   [https://roxanneardary.com/machinacore/](https://roxanneardary.com/machinacore/)  
   An open-source autonomous engineering intelligence system that builds, improves, and evolves software over time.
 
