@@ -42,9 +42,9 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/atlas-urban-intelligence/](https://roxanneardary.com/atlas-urban-intelligence/)  
   A modular, privacy-preserving smart city AI system that converts distributed edge data into real-time, event-based urban intelligence for safer and more efficient city operations.
 
-- **Authensia**  
+- [**Authensia Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/ce6602b8cfbcf7723201e32d8404f8569b76adaa/Authensia.md)    
   [https://roxanneardary.com/authensia/](https://roxanneardary.com/authensia/)  
-  An open-source systemic file storage platform focused on immutable verification, end-to-end encryption, and preserving digital ownership through trusted authorship records.
+  An open-source systemic file storage platform focused on immutable verification, end-to-end encryption, and preserving digital ownership through trusted authorship records.  
 
 - [**AxiomCase Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/c594eede61d5a999dbdafbdaf7af9f5225ae6bc1/AxiomCase.md)    
   [https://roxanneardary.com/axiomcase/](https://roxanneardary.com/axiomcase/)  
