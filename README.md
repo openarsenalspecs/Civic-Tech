@@ -146,7 +146,7 @@ Distributed Manufacturing Infrastructure is an open-source specification for tra
   [https://roxanneardary.com/flexiprice/](https://roxanneardary.com/flexiprice/)  
   An open-source, modular dynamic pricing platform that provides real-time market intelligence, automated pricing recommendations, competitive pricing strategies, and customizable industry-specific modules for intelligent pricing across real estate, retail, services, and other markets.  
 
-- [**Fundamenta Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/c253b5b4d2c3603677eec8d76f8c978ab2c0fbf4/Fundamenta.md)    
+- [**Fundamenta Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/392a635d0223444a61b07553dc1a5d88e83b9c02/Fundamenta.md)   
   [https://roxanneardary.com/fundamenta/](https://roxanneardary.com/fundamenta/)  
   An open-source, AI-driven government budgeting platform that enables transparent, accountable, and intelligent public financial management.
 
