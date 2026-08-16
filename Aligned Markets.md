@@ -1,14 +1,18 @@
 # Aligned Markets
-
 **Built Like Infrastructure, Not Speculation.**
+- HTML Mirror:  [https://roxanneardary.com/aligned-markets-specification/](https://roxanneardary.com/aligned-markets-specification/)
+
+---
 
 Aligned Markets is an open source, transparent, verifiable single-issuer equity market infrastructure project designed to provide investors with comprehensive visibility into ownership, trading, corporate actions, dividends, governance, security, and market integrity.
 
 The system is designed around a simple principle:
 
-> **If an event affects an investor, the investor should be able to verify what happened, why it happened, and that the resulting state is correct.**
+**If an event affects an investor, the investor should be able to verify what happened, why it happened, and that the resulting state is correct.**
 
 Aligned Markets is intended to be developed as regulated financial infrastructure. Operation of a live securities market, trading venue, broker-dealer function, transfer agency function, clearing or settlement activity, or related financial service may require registration, licensing, regulatory approval, qualified intermediaries, and compliance with applicable laws and regulations.
+
+---
 
 ## Vision
 
@@ -1016,7 +1020,7 @@ Please note the following:
 - All contributions must comply with the **AGPL-3.0+** terms.  
 - Under **Section 7** of the license, all redistributions, forks, and derivative works must preserve attribution to:  
   **Roxanne Ardary** and **[roxanneardary.com](https://www.roxanneardary.com/)**.
-- Aligned Markets specificiations are free to use with attribution. A Specification Branding License can be negotiated upon request.  
+- Aligned Markets specifications are free to use with attribution. A Specification Branding License can be negotiated upon request.  
 - The project's **notice.md** file tracks attribution requirements and contributor acknowledgments.  
   Any update that adds new contributors or modifies attribution should also update `notice.md`. 
 - When submitting a pull request, ensure that any new files maintain the attribution headers where applicable.
