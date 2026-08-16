@@ -30,9 +30,9 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/adaptive-render-graph/](https://roxanneardary.com/adaptive-render-graph/)  
   A modular, graph-native visual intelligence system that transforms design systems and media assets into adaptive, interconnected structures for indexing, optimization, and cross-platform rendering.
 
-- [**Aligned Markets Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/6a65b9cd7b6299bf2d912d3126c51ee92d08202f/Aligned%20Markets.md)    
+- [**Aligned Markets Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/7172273974d5363f4503eb7910da5b3431dbe47c/Aligned%20Markets.md)     
   [https://roxanneardary.com/alignedmarkets/](https://roxanneardary.com/alignedmarkets/)  
-  An open-source transparent equity market infrastructure project focused on verifiable trading, shareholder alignment, and accountable market mechanics.
+  An open-source transparent equity market infrastructure project focused on verifiable trading, shareholder alignment, and accountable market mechanics.  
 
 - [**ArcaneBuild Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/cbe1a05051624fb9d28ad54ad9d8f37dcba1f495/ArcaneBuild.md)    
   [https://roxanneardary.com/arcanebuild/](https://roxanneardary.com/arcanebuild/)  
