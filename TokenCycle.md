@@ -1,5 +1,8 @@
 # TokenCycle 2.0 Specification
-## Circular Infrastructure, Rewarded
+**Circular Infrastructure, Rewarded**
+- HTML Mirror: [https://roxanneardary.com/tokencycle-specification/](https://roxanneardary.com/tokencycle-specification/)  
+
+---
 
 TokenCycle 2.0 is an open-source modular infrastructure specification for cities, municipalities, communities, utilities, and circular economy operators. It provides a framework for connecting waste collection, material recovery, recycling, composting, anaerobic digestion, waste-to-energy, energy systems, data infrastructure, artificial intelligence, IoT networks, digital twins, marketplaces, and community reward systems.
 
@@ -53,6 +56,8 @@ Physical processing systems must comply with applicable environmental, occupatio
 ### Extensibility
 
 Optional plugins should allow deployments to add specialized capabilities without modifying the core modules.
+
+---
 
 ## Core Modules
 
@@ -1058,12 +1063,6 @@ Contributors may participate through:
 
 All contributions should preserve modularity, interoperability, documentation quality, security, and the open-source principles of the project.
 
-## Vision
-
-TokenCycle 2.0 provides an open-source foundation for building circular infrastructure in which waste, materials, energy, information, and economic incentives continuously move through connected systems.
-
-**TokenCycle 2.0: Circular Infrastructure, Rewarded.**
-
 ---
 
 ## Specification Branding License (SBL)
@@ -1093,7 +1092,7 @@ Please note the following:
 - All contributions must comply with the **AGPL-3.0+** terms.  
 - Under **Section 7** of the license, all redistributions, forks, and derivative works must preserve attribution to:  
   **Roxanne Ardary** and **[roxanneardary.com](https://www.roxanneardary.com/)**.
-- TokenCycle specificiations are free to use with attribution. A Specification Branding License can be negotiated upon request.
+- TokenCycle specifications are free to use with attribution. A Specification Branding License can be negotiated upon request.
 - The project's **notice.md** file tracks attribution requirements and contributor acknowledgments.   
   Any update that adds new contributors or modifies attribution should also update `notice.md`. 
 - When submitting a pull request, ensure that any new files maintain the attribution headers where applicable.
