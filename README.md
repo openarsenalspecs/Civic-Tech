@@ -210,6 +210,10 @@ An open, modular freight marketplace specification that standardizes secure, tra
   [https://roxanneardary.com/lodgingmap/](https://roxanneardary.com/lodgingmap/)  
   An open-source civic data platform that maps extended-stay hotels across the United States and connects them to public records, ownership structures, and financing data.
 
+- **LoyalCredit Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/b73215bf7c87f7d80b19b23f74c3c3fa7fbe9af0/LoyalCredit.md)  
+[https://roxanneardary.com/loyalcredit/](https://roxanneardary.com/loyalcredit/)  
+LoyalCredit is an open source, relationship-based credit specification that builds lending trust through demonstrated repayment and progresses qualified borrowers from secured to unsecured lending through the Credit Trust Ladder. Late payments reduce credit standing, while default permanently ends the borrower's lending relationship with the specific business that recorded it.
+
 - [**MachinaCore Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/7e74828f6b785e61970d01c464847021d56fbfc3/MachinaCore.md)    
   [https://roxanneardary.com/machinacore/](https://roxanneardary.com/machinacore/)  
   An open-source autonomous engineering intelligence system that builds, improves, and evolves software over time.
