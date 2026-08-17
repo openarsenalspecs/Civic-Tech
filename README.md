@@ -278,7 +278,7 @@ OpenBirth Platform is an open source demographic intelligence system designed to
   [https://roxanneardary.com/parcelplanner/](https://roxanneardary.com/parcelplanner/)  
   An open-source property intelligence platform that helps users determine what can legally be built, modified, or developed on a parcel of land using official zoning laws and government regulations.
 
-- [**PhilanthroMetrics Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/d45f108e021607a4257441382f7e00dee5a36fc5/PhilanthroMetrics.md)    
+- [**PhilanthroMetrics Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/67e371a0d97d543aa05cbbc96d0eaf80daa3cd91/PhilanthroMetrics.md)    
   [https://roxanneardary.com/philanthrometrics/](https://roxanneardary.com/philanthrometrics/)  
   An open-source platform that analyzes nonprofit financial disclosures and public communications to measure charitable impact with transparent, reproducible metrics. AGPLv3  
 
