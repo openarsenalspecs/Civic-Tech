@@ -286,7 +286,7 @@ OpenBirth Platform is an open source demographic intelligence system designed to
   [https://roxanneardary.com/phonic/](https://roxanneardary.com/phonic/)  
   An open-source AI-powered call interception system that detects and blocks robocalls, transcribes voicemails, and intelligently manages all incoming and outgoing phone communications. AGPLv3  
 
-- [**PlotLedger Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/a3251aa44e04801c5c7d5c9a89b745eccd93d841/PlotLedger.md)    
+- [**PlotLedger Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/ec59a6a5097a0c5018a38a9bc5a7a5506a717093/PlotLedger.md)  
   [https://roxanneardary.com/plotledger/](https://roxanneardary.com/plotledger/)  
   The Future of Parcel Intelligence, an open-source AI platform that unifies large land parcel data, zoning laws, permits, and ownership records into a single national intelligence system.  
 
