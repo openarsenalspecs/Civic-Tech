@@ -1,5 +1,6 @@
 # CureLens Specification
 **Tracking Efficacy, Empowering Research**
+- HTML Mirror:  [https://roxanneardary.com/curelens-specification/](https://roxanneardary.com/curelens-specification/)
 
 ---
 
