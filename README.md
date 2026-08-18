@@ -70,9 +70,9 @@ Organizations are welcome to implement these specifications under their respecti
   [https://roxanneardary.com/burpalert/](https://roxanneardary.com/burpalert/)  
   AI platform for volcano monitoring, tracking seismic activity, gas emissions, eruptions, and subtle volcanic sounds. AGPLv3
 
-- [**CareerOS-X Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/6322fa5ae49b7d86b177899ae427691cc7c3fc93/CareerOS-X.md)    
+- [**CareerOS-X Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/ca0d81b5e897ce491edc283c65632482046efb46/CareerOS-X.md)  
   [https://roxanneardary.com/careeros-x/](https://roxanneardary.com/careeros-x/)  
-  A modular, open-source AI engine that replicates and expands LinkedIn Premium features — without subscriptions — giving users full ownership of their professional data in a privacy-first, federated architecture.
+  A modular, open-source AI engine that replicates and expands LinkedIn Premium features — without subscriptions — giving users full ownership of their professional data in a privacy-first, federated architecture.  
 
 - [**Carenex Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/f9227f4f901da360c0e48e58aa30d98681dfb0c8/Carenex.md)    
   [https://roxanneardary.com/carenex/](https://roxanneardary.com/carenex/)  
