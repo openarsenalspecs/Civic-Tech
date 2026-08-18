@@ -1,6 +1,8 @@
 # CareerOS-X Specification
-
 **AI-Driven. User-Owned. Limitless.**
+- HTML Mirror: [https://roxanneardary.com/careeros-x-specification/](https://roxanneardary.com/careeros-x-specification/)
+
+---
 
 ## Overview
 
@@ -480,39 +482,4 @@ Please note the following:
 - When submitting a pull request, ensure that any new files maintain the attribution headers where applicable.
 - Network-deployed versions of this software must also remain fully AGPL-3.0+ compliant, including exposure of source code modifications when applicable under the license.
 
-For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.
-
----
-
-## 📦 Getting Started
-
-Follow these steps to get CareerOS‑X running locally:
-
-```bash
-# Clone the repository
-git clone https://codeberg.org/RoxanneA/CareerOS-X.git
-
-# Move into the project folder
-cd careeros‑x
-
-# Install dependencies (TBD based on AI and modules)
-./install‑dependencies.sh
-
-# Start the CareerOS‑X engine
-./careerosx start
-```
-
-Visit your dashboard to configure integrations and start exploring features.
-
-## 🤝 Contributing
-
-We welcome contributions! CareerOS‑X is modular and community driven. Please see the CONTRIBUTING.md file for:
-
-Contribution guidelines
-Coding standards
-Module plug‑in submission steps
-Code review and pull request process
-
-## 🏷️ Tagline
-
-CareerOS‑X — AI‑Driven. User‑Owned. Limitless.
+For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.  
