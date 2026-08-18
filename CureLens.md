@@ -1,8 +1,5 @@
 # CureLens Specification
-
 **Tracking Efficacy, Empowering Research**
-
-**Copyright (C) 2026 Roxanne Ardary and [roxanneardary.com](https://www.roxanneardary.com/)**
 
 ---
 
@@ -426,40 +423,7 @@ Creates a connected research ecosystem linking:
 - Biological mechanisms.
 - Outcomes.
 - Researchers.
-- Publications.
-
----
-
-# Technology Stack
-
-Recommended implementation:
-
-- Database: PostgreSQL
-- Backend: Modular API architecture
-- Frontend: Interactive research dashboards
-- AI Layer: Machine learning and natural language processing
-- Analytics Layer: Statistical and predictive analysis engines
-- Deployment: Modular container-based infrastructure
-
----
-
-# Design Principles
-
-CureLens follows:
-
-- Open science principles.
-- Transparent analysis.
-- Reproducible research.
-- Human-reviewed AI insights.
-- Modular architecture.
-- Data provenance.
-- Community collaboration.
-
----
-
-# Project Vision
-
-CureLens aims to create an open scientific intelligence ecosystem where clinical evidence can be examined transparently, research patterns can be discovered collaboratively, and future medical investigations can be guided by deeper analysis of existing knowledge.  
+- Publications.  
 
 ---
 
