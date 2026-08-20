@@ -1,5 +1,7 @@
 # NeuraTrust
-### Intelligence with Integrity
+**Intelligence with Integrity**
+- HTML Mirror:  [https://roxanneardary.com/neuratrust-specification/](https://roxanneardary.com/neuratrust-specification/)
+---
 
 **NeuraTrust** is an open-source, modular platform for building **human-accountable, transparent, auditable, and policy-governed AI systems**. Designed with security, privacy, compliance, and governance at its core, NeuraTrust ensures that AI remains under meaningful human oversight while providing organizations with a scalable foundation for deploying trustworthy intelligent systems.
 
@@ -501,7 +503,7 @@ Please note the following:
 - All contributions must comply with the **AGPL-3.0+** terms.  
 - Under **Section 7** of the license, all redistributions, forks, and derivative works must preserve attribution to:  
   **Roxanne Ardary** and **[roxanneardary.com](https://www.roxanneardary.com/)**.
-- NeuraTrust specificiations are free to use with attribution. A Specification Branding License can be negotiated upon request.
+- NeuraTrust specifications are free to use with attribution. A Specification Branding License can be negotiated upon request.
 - The project's **notice.md** file tracks attribution requirements and contributor acknowledgments.  
   Any update that adds new contributors or modifies attribution must also update `notice.md`. 
 - When submitting a pull request, ensure that any new files maintain attribution headers where applicable.
