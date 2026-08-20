@@ -1,59 +1,39 @@
 # Umbrix
-
 **Adaptive privacy for a connected world.**
-
-Umbrix is a commercial-grade, open-source privacy and network security platform designed to provide adaptive network obfuscation, multi-node routing, privacy-preserving communications, and cross-platform protection.
-
-Umbrix is built as a modular system. Core modules provide the foundational networking, cryptographic, routing, privacy, and security capabilities required for the platform to operate, while optional plugin modules extend Umbrix with specialized functionality without requiring those capabilities to be installed or enabled.
-
-Umbrix is designed for individuals, organizations, developers, self-hosted deployments, privacy-focused infrastructure, and locally hosted AI systems that require privacy to extend beyond the application layer and into the underlying network.
-
+- HTML Mirror:  [https://roxanneardary.com/umbrix-specification/](https://roxanneardary.com/umbrix-specification/)  
 ---
 
-## Table of Contents
+Umbrix is a commercial-grade, open-source privacy and network security platform designed to provide adaptive network obfuscation, multi-node routing, encrypted communications, application isolation, and per-agent network privacy across desktop, mobile, server, IoT, and locally hosted AI environments.
 
-- [Project Goals](#project-goals)
-- [Design Principles](#design-principles)
-- [Architecture](#architecture)
-- [Core Modules](#core-modules)
-- [Optional Plugin Modules](#optional-plugin-modules)
-- [Client Architecture](#client-architecture)
-- [Node Architecture](#node-architecture)
-- [Control Plane](#control-plane)
-- [Routing Architecture](#routing-architecture)
-- [Protocol Architecture](#protocol-architecture)
-- [Privacy Architecture](#privacy-architecture)
-- [Security Architecture](#security-architecture)
-- [Cross-Platform Support](#cross-platform-support)
-- [AI Privacy](#ai-privacy)
-- [Developer Platform](#developer-platform)
-- [Configuration](#configuration)
-- [Deployment](#deployment)
-- [Testing and Verification](#testing-and-verification)
-- [Roadmap](#roadmap)
-- [License](#license)
-- [Attribution](#attribution)
+Umbrix is designed as a modular system. Core modules provide the foundational networking, cryptographic, routing, privacy, security, and multi-channel capabilities required by the platform. Optional plugin modules extend Umbrix with specialized functionality without requiring those capabilities to be installed or enabled.
+
+A central design goal of Umbrix is to make network privacy available at the individual application and AI-agent level. Multiple AI agents can operate simultaneously while receiving independently managed Umbrix channels, routing policies, encryption sessions, DNS policies, privacy profiles, and network identities.
 
 ---
 
 ## Project Goals
 
-Umbrix is designed around several primary objectives:
+Umbrix is designed to:
 
-- Hide the user's public IP address from destination services.
+- Protect network traffic through authenticated encryption.
+- Mask public IP addresses from destination services.
 - Separate network origin from destination traffic.
 - Support configurable multi-node routing.
 - Provide adaptive network obfuscation.
-- Reduce traffic-analysis and fingerprinting exposure.
-- Protect DNS and other metadata from unnecessary disclosure.
-- Provide privacy controls across desktop and mobile platforms.
+- Reduce exposure to traffic analysis.
+- Protect DNS and network metadata.
+- Provide application-specific network isolation.
+- Provide dedicated VPN channels for individual AI agents.
+- Support independently managed privacy policies for every channel.
+- Support locally hosted AI systems with network privacy by default.
 - Support self-hosted and distributed infrastructure.
-- Provide a modular architecture for future privacy technologies.
-- Give locally hosted AI systems a privacy layer by default.
-- Minimize centralized dependencies and vendor lock-in.
-- Provide transparent, auditable open-source infrastructure.
+- Minimize unnecessary centralized dependencies.
+- Provide cryptographic agility.
+- Support desktop, mobile, server, IoT, and AI infrastructure.
+- Provide a modular plugin ecosystem.
+- Maintain transparent, auditable open-source architecture.
 
-Umbrix does not treat a VPN tunnel as the entire privacy solution. Privacy is treated as a layered system encompassing routing, transport, DNS, application behavior, device identifiers, metadata, and network observability.
+Umbrix treats privacy as a layered system rather than simply an encrypted tunnel. Network routing, transport behavior, DNS, applications, AI agents, device interfaces, metadata, and infrastructure are treated as separate privacy boundaries.
 
 ---
 
@@ -61,54 +41,76 @@ Umbrix does not treat a VPN tunnel as the entire privacy solution. Privacy is tr
 
 ### Privacy by Architecture
 
-Privacy protections should be structural rather than dependent on users correctly configuring dozens of individual settings.
+Privacy protections should be structural rather than dependent on users correctly configuring numerous individual settings.
 
-### Modular by Default
+### Modular Design
 
-Major functionality is divided into independently maintainable modules with explicit interfaces and defined security boundaries.
+Core capabilities should be separated into independently maintainable modules with explicit interfaces and security boundaries.
 
-### Core Stability
+### Core Security
 
 Security-critical functionality belongs in the core platform and should not depend on optional plugins.
 
 ### Optional Extensibility
 
-Specialized capabilities can be added through plugins without unnecessarily increasing the attack surface of the base installation.
+Specialized capabilities should be implemented as optional plugins when they are not required for the fundamental operation of Umbrix.
 
 ### Local First
 
 Umbrix should support local and self-hosted operation wherever practical.
 
-### Decentralized Infrastructure
+### Distributed Infrastructure
 
-The system should support distributed node discovery, routing, and reputation without requiring a single centralized control point.
+Umbrix should support distributed nodes, decentralized discovery, and distributed routing without requiring a single centralized authority.
+
+### Agent Isolation
+
+Every AI agent should be capable of receiving an independently managed network channel.
+
+### Application Isolation
+
+Applications should be able to receive independent routing, DNS, encryption, and privacy policies.
 
 ### Human Control
 
-Automatic routing and security decisions should remain configurable and understandable to users and administrators.
+Automatic routing and security decisions should remain configurable and understandable.
 
 ### Cryptographic Agility
 
-Umbrix should be capable of adopting new cryptographic standards without requiring a complete architectural redesign.
+Umbrix should support replacement and addition of cryptographic mechanisms as standards evolve.
 
-### Cross-Platform Consistency
+### Cross Platform
 
-Privacy guarantees should remain as consistent as platform security models allow across Windows, Linux, macOS, Android, and iOS.
+The architecture should maintain consistent privacy behavior across supported operating systems while respecting platform-specific security boundaries.
+
+### Measurable Privacy
+
+Privacy claims should be evaluated through testing and measurable security properties rather than assumed from architectural intent.
 
 ---
 
 # Architecture
 
-Umbrix is organized into four primary architectural layers:
+Umbrix consists of a modular privacy platform containing:
 
-1. **Core Platform**
-2. **Network Nodes**
-3. **Control Plane**
-4. **Optional Plugin Ecosystem**
+- Client services
+- Tunnel management
+- Protocol services
+- Cryptographic services
+- Routing services
+- Node services
+- Control-plane services
+- Privacy policy services
+- Multi-channel services
+- Application isolation
+- AI-agent isolation
+- Security monitoring
+- Optional plugins
+- Developer APIs
 
-The core platform provides the functionality required to establish, secure, route, and terminate Umbrix connections.
+Core modules provide foundational functionality.
 
-Plugins provide additional functionality such as advanced traffic morphing, AI-assisted analysis, specialized transports, browser privacy controls, IoT integration, and experimental privacy technologies.
+Optional plugins extend the platform through defined interfaces and permission boundaries.
 
 ---
 
@@ -116,94 +118,100 @@ Plugins provide additional functionality such as advanced traffic morphing, AI-a
 
 ## Core Client Module
 
-The Client Module provides the primary user-facing networking layer.
+The Client Module provides the primary local Umbrix service.
 
-Responsibilities include:
+Capabilities include:
 
+- Connection management
 - Tunnel lifecycle management
-- Local interface management
-- Connection establishment
-- Session management
 - Privacy profile management
-- Route selection requests
+- Channel management
+- Route selection
 - Configuration management
 - Platform integration
 - Connection health monitoring
 - Automatic reconnection
 - Secure shutdown
+- Policy enforcement
+- Security state reporting
 
-The client should not expose raw private keys or sensitive routing material through ordinary user interfaces.
+The client should not expose private cryptographic material through ordinary user interfaces.
 
 ---
 
 ## Core Tunnel Module
 
-The Tunnel Module manages the local encrypted network tunnel.
+The Tunnel Module provides the local encrypted network interface.
 
-Responsibilities include:
+Capabilities include:
 
 - TUN/TAP integration
+- Platform-specific virtual interfaces
 - Packet encapsulation
 - Packet forwarding
-- Tunnel state management
-- MTU management
-- Packet fragmentation handling
+- Packet authentication
 - Packet reassembly
+- MTU management
 - Connection isolation
-- Leak prevention
+- Traffic leak prevention
+- Tunnel lifecycle management
 
-The tunnel layer provides the foundation on which the routing and protocol modules operate.
+The Tunnel Module provides the foundation for device-wide and channel-specific routing.
 
 ---
 
 ## Core Protocol Module
 
-The Protocol Module implements the Umbrix protocol architecture.
+The Protocol Module provides the Umbrix protocol architecture.
 
-The protocol is designed to support:
+Capabilities include:
 
 - Secure session establishment
+- Mutual authentication
+- Session negotiation
 - Multiplexed traffic
 - Ephemeral session keys
 - Forward secrecy
 - Routing envelopes
 - Packet authentication
 - Replay protection
-- Protocol negotiation
-- Version negotiation
-- Cryptographic agility
-- Transport abstraction
+- Protocol version negotiation
+- Transport negotiation
+- Cryptographic negotiation
+- Session expiration
+- Session rotation
 
-The protocol should be designed independently from any individual transport so that additional transports can be implemented without redesigning the core routing architecture.
+The protocol architecture should remain independent from individual network transports.
 
 ---
 
 ## Core Cryptography Module
 
-The Cryptography Module provides centralized cryptographic primitives and key-management interfaces.
+The Cryptography Module provides cryptographic primitives and key-management services.
 
-Planned capabilities include:
+Capabilities include:
 
 - X25519 key exchange
 - ChaCha20-Poly1305 authenticated encryption
 - BLAKE3 hashing
-- Secure random number generation
+- Cryptographically secure random generation
 - Ephemeral session keys
-- Per-hop key material
+- Per-channel keys
+- Per-hop keys
 - Forward secrecy
 - Key rotation
 - Replay protection
 - Secure key destruction
-- Cryptographic algorithm negotiation
-- Post-quantum hybrid key exchange support
+- Cryptographic agility
+- Hybrid post-quantum key exchange support
 
-Cryptographic implementations should rely on audited libraries whenever practical rather than implementing primitives from scratch.
+Umbrix should use independently reviewed cryptographic libraries wherever practical.
 
 ---
 
 ## Core Routing Module
 
-The Routing Module manages multi-node paths.
+The Routing Module manages traffic paths through Umbrix infrastructure.
 
 Capabilities include:
 
@@ -214,42 +222,44 @@ Capabilities include:
 - Relay-node selection
 - Exit-node selection
 - Route health monitoring
+- Route expiration
+- Route rotation
 - Route replacement
 - Route failover
-- Route expiration
-- Route policy enforcement
-- Latency-aware routing
-- Reliability-aware routing
 - Privacy-aware routing
-- Randomized route selection
+- Performance-aware routing
+- Reliability-aware routing
+- Route diversity
+- Policy-based routing
 
-Routing decisions should minimize the information available to individual nodes about the complete path.
+Routing should minimize unnecessary knowledge of the complete path at individual nodes.
 
 ---
 
 ## Core Adaptive Routing Module
 
-The Adaptive Routing Module continuously evaluates network conditions and determines whether an existing route remains appropriate.
+The Adaptive Routing Module evaluates network conditions and determines whether routes remain appropriate.
 
-It can consider:
+It may consider:
 
 - Latency
 - Packet loss
 - Node availability
 - Congestion
+- Reliability
 - Route diversity
-- Network reliability
-- Privacy policy
 - Transport health
+- Privacy requirements
 - Node reputation
+- Configured user policies
 
-The module can initiate route replacement when configured thresholds are reached.
+The module can replace routes when configured thresholds or privacy requirements are no longer satisfied.
 
 ---
 
 ## Core Obfuscation Module
 
-The Obfuscation Module provides foundational traffic transformation capabilities.
+The Obfuscation Module provides foundational traffic transformation.
 
 Capabilities include:
 
@@ -259,26 +269,28 @@ Capabilities include:
 - Traffic batching
 - Flow shaping
 - Connection behavior normalization
-- Transport camouflage
 - Traffic-pattern diversification
+- Transport camouflage
 - DPI resistance mechanisms
+- Configurable obfuscation levels
 
-Obfuscation should be configurable so users can balance privacy, performance, battery consumption, and network compatibility.
+Obfuscation profiles should provide configurable tradeoffs between privacy, performance, latency, and resource consumption.
 
 ---
 
 ## Core DNS Privacy Module
 
-The DNS module protects domain-resolution traffic.
+The DNS Privacy Module protects domain resolution.
 
 Capabilities include:
 
 - Encrypted DNS
-- DNS-over-HTTPS support
-- DNS-over-QUIC support
+- DNS over HTTPS
+- DNS over QUIC
 - DNS leak prevention
 - Configurable resolvers
-- Per-profile resolver policies
+- Per-profile DNS policies
+- Per-channel DNS policies
 - DNS routing through Umbrix nodes
 - Resolver failover
 - Local DNS interception
@@ -288,19 +300,21 @@ Capabilities include:
 
 ## Core Kill Switch Module
 
-The Kill Switch prevents traffic from bypassing the Umbrix tunnel.
+The Kill Switch Module prevents traffic from bypassing Umbrix.
 
 Capabilities include:
 
-- System-wide kill switch
+- Device-wide kill switch
 - Application-specific kill switch
-- Network-interface monitoring
+- AI-agent-specific kill switch
+- Channel-specific kill switch
+- Interface monitoring
 - Route enforcement
 - DNS leak prevention
-- Connection-state enforcement
 - Emergency traffic blocking
+- Fail-closed behavior
 
-The kill switch should fail closed when enabled.
+When enabled, the kill switch should prevent traffic from escaping outside the configured Umbrix privacy boundary.
 
 ---
 
@@ -312,56 +326,263 @@ Policies may control:
 
 - Required hop count
 - Allowed regions
-- Forbidden regions
+- Restricted regions
 - Node requirements
 - Transport requirements
 - DNS requirements
 - Application routing
+- AI-agent routing
 - Privacy level
 - Obfuscation level
 - Failover behavior
 - Logging restrictions
 - Plugin permissions
+- Channel permissions
+- Bandwidth limits
+- Connection destinations
+
+---
+
+## Core Privacy Profile Module
+
+Umbrix should provide configurable privacy profiles.
+
+### Standard
+
+Balanced privacy, performance, and resource consumption.
+
+### Advanced
+
+Multi-node routing with increased obfuscation and stronger privacy controls.
+
+### Maximum
+
+Aggressive privacy controls, increased route diversity, and stronger traffic protection.
+
+### AI Agent
+
+Dedicated privacy settings optimized for individual AI-agent channels.
+
+### Custom
+
+Fully user-defined privacy policies.
+
+Profiles should communicate their security and performance tradeoffs clearly.
+
+---
+
+## Core MultiChannel Module
+
+The MultiChannel Module provides independent Umbrix network channels for applications, services, and AI agents.
+
+Each channel represents an independent logical privacy boundary.
+
+Capabilities include:
+
+- Per-application VPN channels
+- Per-agent VPN channels
+- Independent encryption sessions
+- Independent routing policies
+- Independent DNS policies
+- Independent privacy profiles
+- Independent obfuscation profiles
+- Independent kill switches
+- Independent exit-node policies
+- Independent bandwidth policies
+- Independent security policies
+- Independent channel lifecycle
+- Channel health monitoring
+- Channel failover
+- Channel suspension
+- Channel revocation
+- Channel destruction
+- Channel quotas
+- Channel priority
+- Channel authorization
+- Dynamic channel creation
+- Dynamic channel termination
+
+A channel should be capable of operating independently from other channels on the same device.
+
+---
+
+## Core AI Agent Channel Module
+
+The AI Agent Channel Module extends MultiChannel functionality specifically for AI agents.
+
+Each AI agent can receive a dedicated Umbrix channel.
+
+An AI agent channel can include:
+
+- Dedicated network identity
+- Dedicated session keys
+- Dedicated route
+- Dedicated entry node
+- Dedicated relay nodes
+- Dedicated exit node
+- Dedicated DNS policy
+- Dedicated privacy profile
+- Dedicated obfuscation policy
+- Dedicated kill switch
+- Dedicated bandwidth limit
+- Dedicated destination policy
+- Dedicated security policy
+- Dedicated plugin permissions
+- Dedicated channel lifecycle
+- Dedicated health state
+
+Multiple AI agents can operate simultaneously without requiring them to share the same routing or privacy configuration.
+
+---
+
+## Core Agent Lifecycle Module
+
+The Agent Lifecycle Module manages network privacy throughout the life of an AI agent.
+
+Supported lifecycle states include:
+
+- Agent registration
+- Channel creation
+- Policy assignment
+- Route establishment
+- Agent startup
+- Active monitoring
+- Route rotation
+- Policy updates
+- Channel suspension
+- Agent termination
+- Channel destruction
+- Ephemeral key destruction
+
+When an agent terminates, its channel and ephemeral session material should be securely disposed of according to configured policy.
+
+---
+
+## Core Agent Authorization Module
+
+The Agent Authorization Module controls which applications and AI agents may access specific Umbrix channels.
+
+Capabilities include:
+
+- Agent identity registration
+- Application identity registration
+- Channel ownership
+- Channel access control
+- Permission management
+- Token-based authorization
+- Local authorization
+- Channel revocation
+- Permission expiration
+- Policy inheritance controls
+
+An AI agent should not automatically gain access to another agent's channel.
+
+---
+
+## Core Agent API Module
+
+The Agent API provides local interfaces for AI orchestration systems and application frameworks.
+
+Capabilities include:
+
+- Create channel
+- Assign channel
+- Query channel
+- Update channel policy
+- Request route
+- Rotate route
+- Suspend channel
+- Resume channel
+- Revoke channel
+- Destroy channel
+- Query health
+- Query connection state
+- Apply privacy profile
+- Apply DNS policy
+- Apply destination policy
+
+The API should authenticate requests and enforce channel-specific authorization.
+
+---
+
+## Core Agent SDK Module
+
+The Agent SDK provides developers with interfaces for integrating Umbrix into AI applications.
+
+Potential integrations include:
+
+- Locally hosted AI
+- AI agent frameworks
+- Agent orchestration systems
+- Autonomous applications
+- AI development environments
+- Model servers
+- Tool-using agents
+- Workflow engines
+
+The SDK should abstract channel lifecycle operations without exposing unnecessary cryptographic material.
+
+---
+
+## Core Application Routing Module
+
+The Application Routing Module provides network policies for individual applications.
+
+Capabilities include:
+
+- Full-device routing
+- Application-specific routing
+- Split tunneling
+- Application groups
+- Per-application DNS
+- Per-application exit policies
+- Per-application privacy profiles
+- Application-specific kill switches
+- Application-specific channel assignment
 
 ---
 
 ## Core Node Module
 
-The Node Module allows systems to operate as Umbrix network nodes.
+The Node Module allows infrastructure to participate in the Umbrix network.
+
+Supported node roles include:
+
+- Entry node
+- Relay node
+- Exit node
+- Peer relay
+- Private relay
+- Organization-controlled node
 
 Node capabilities include:
 
-- Entry relay operation
-- Intermediate relay operation
-- Exit relay operation
-- Peer relay operation
-- Node health reporting
-- Capacity reporting
 - Secure node identity
 - Key management
 - Route participation
+- Health reporting
+- Capacity reporting
+- Policy enforcement
 - Node isolation
-
-Operators should be able to configure exactly which node roles their infrastructure supports.
+- Secure configuration
 
 ---
 
 ## Core Node Discovery Module
 
-The Node Discovery Module provides decentralized discovery mechanisms.
+The Node Discovery Module provides decentralized infrastructure discovery.
 
 Capabilities include:
 
 - Distributed node discovery
-- Capability advertisement
+- Node capability advertisement
 - Cryptographic node identity
-- Node availability information
-- Geographic metadata policies
 - Transport capability discovery
+- Node availability
 - Node expiration
-- Discovery cache management
-
-Discovery data should avoid unnecessarily exposing sensitive operator information.
+- Discovery caching
+- Privacy-preserving node metadata
+- Regional diversity information
 
 ---
 
@@ -369,7 +590,7 @@ Discovery data should avoid unnecessarily exposing sensitive operator informatio
 
 The Reputation Module evaluates node reliability and trust characteristics.
 
-Metrics may include:
+Potential inputs include:
 
 - Availability
 - Reliability
@@ -377,11 +598,11 @@ Metrics may include:
 - Packet loss
 - Protocol compliance
 - Historical stability
-- Abuse reports
-- Cryptographic identity continuity
-- Operator-defined trust policies
+- Security reports
+- Identity continuity
+- Operator policies
 
-Reputation should influence routing without becoming an absolute centralized authority.
+Reputation should inform routing without becoming an absolute centralized authority.
 
 ---
 
@@ -391,74 +612,37 @@ The Security Module provides system-wide defensive capabilities.
 
 Capabilities include:
 
-- Connection integrity monitoring
+- Session integrity monitoring
 - MITM detection
 - Replay detection
-- Session anomaly detection
 - Route integrity validation
 - Node behavior validation
 - Protocol downgrade protection
-- Configuration integrity validation
+- Configuration validation
+- Security event detection
 - Secure update verification
-- Security event handling
+- Plugin security enforcement
+- Channel security monitoring
+- Agent security monitoring
 
 ---
 
 ## Core Self-Healing Module
 
-The Self-Healing Module provides automated recovery.
-
-It can:
-
-- Replace failed nodes
-- Rebuild broken routes
-- Re-establish tunnels
-- Switch transports
-- Rotate session keys
-- Remove unhealthy nodes
-- Recover from temporary network failures
-- Restore required privacy policies
-
----
-
-## Core Application Routing Module
-
-The Application Routing Module supports application-specific network policies.
+The Self-Healing Module provides automatic network recovery.
 
 Capabilities include:
 
-- Full-device tunneling
-- Application-specific tunneling
-- Split tunneling
-- Application groups
-- Per-application DNS policies
-- Per-application routing policies
-- Separate tunnels
-- Application isolation
-
----
-
-## Core Privacy Profile Module
-
-Built-in profiles can include:
-
-### Standard
-
-Balanced privacy and performance.
-
-### Advanced
-
-Multi-node routing with stronger obfuscation and privacy controls.
-
-### Maximum
-
-Aggressive privacy controls, increased route diversity, and advanced traffic protection.
-
-### Custom
-
-User-defined policies controlling individual Umbrix capabilities.
-
-Profiles should expose understandable security tradeoffs rather than presenting anonymity as an absolute guarantee.
+- Failed-node replacement
+- Broken-route recovery
+- Tunnel reconnection
+- Transport switching
+- Session key rotation
+- Unhealthy-node removal
+- Channel recovery
+- Agent-channel recovery
+- Network failure recovery
+- Policy restoration
 
 ---
 
@@ -476,47 +660,67 @@ Capabilities include:
 - Local diagnostic storage
 - Secure diagnostic deletion
 
-User traffic contents should never be collected for ordinary telemetry.
+User traffic contents should not be collected as ordinary telemetry.
+
+---
+
+## Core Configuration Module
+
+The Configuration Module manages system, channel, agent, node, routing, security, and plugin configuration.
+
+Capabilities include:
+
+- Configuration validation
+- Policy validation
+- Profile management
+- Configuration versioning
+- Secure configuration storage
+- Configuration import
+- Configuration export
+- Configuration rollback
+- Conflict detection
 
 ---
 
 # Optional Plugin Modules
 
-Plugins extend Umbrix without requiring every installation to include every feature.
+Optional plugins extend Umbrix without requiring specialized functionality in the core installation.
 
-Plugins must operate through documented interfaces and explicit permissions.
+Plugins must use documented interfaces and explicit permission models.
+
+---
 
 ## AI Threat Detection Plugin
 
-Provides optional machine-learning-based detection of:
+Provides optional AI-assisted detection of:
 
 - Traffic anomalies
 - Suspicious node behavior
-- Connection manipulation
 - Route anomalies
+- Connection manipulation
 - Network attacks
-- Potential traffic-analysis attempts
+- Potential traffic-analysis patterns
+- Unexpected agent behavior
 
-AI recommendations should remain subject to Umbrix policy controls.
+AI recommendations should remain subject to Umbrix security policies.
 
 ---
 
 ## AI Obfuscation Plugin
 
-Provides adaptive traffic-pattern selection based on:
+Provides adaptive selection of approved traffic-obfuscation strategies based on:
 
 - Network characteristics
-- Connection performance
 - Transport compatibility
-- Configured privacy level
-
-The plugin can recommend or activate approved obfuscation profiles.
+- Connection performance
+- Privacy requirements
+- Configured policy
 
 ---
 
 ## Traffic Morphing Plugin
 
-Provides additional traffic-shaping strategies.
+Provides additional traffic transformation capabilities.
 
 Potential capabilities include:
 
@@ -525,21 +729,24 @@ Potential capabilities include:
 - Timing profiles
 - Adaptive padding
 - Cover traffic
-- Protocol behavior simulation
+- Traffic-pattern variation
+- Transport behavior simulation
 
 ---
 
 ## Advanced Stealth Transport Plugin
 
-Provides additional transport implementations for networks that restrict or interfere with ordinary VPN traffic.
+Provides additional transport implementations for environments where conventional VPN traffic experiences interference.
 
-Transport implementations must preserve Umbrix authentication and encryption rather than bypassing them.
+All transports must preserve Umbrix authentication and encryption.
 
 ---
 
 ## Browser Privacy Plugin
 
-Provides browser-level privacy controls such as:
+Provides browser-level privacy controls.
+
+Capabilities may include:
 
 - Fingerprint reduction
 - WebRTC leak protection
@@ -547,23 +754,23 @@ Provides browser-level privacy controls such as:
 - Geolocation permission controls
 - Canvas privacy controls
 - WebGL privacy controls
-- User-agent policy management
+- User-agent policies
 - Tracking protection
 
-Browser privacy features are inherently limited by browser security models and should not claim to eliminate fingerprinting completely.
+Browser-level protections should clearly communicate platform limitations.
 
 ---
 
 ## Geolocation Privacy Plugin
 
-Provides optional application-level location privacy.
+Provides optional application-level location privacy controls.
 
 Capabilities may include:
 
-- Location permission management
-- Configurable location policies
-- Privacy-preserving location responses
+- Location permission policies
+- Configurable location behavior
 - Location consistency controls
+- Privacy-preserving location responses
 - Optional location simulation
 
 ---
@@ -578,13 +785,13 @@ Provides supported platform-specific privacy controls for:
 - Device metadata
 - Hardware telemetry
 
-Capabilities depend on operating-system permissions and hardware support.
+Capabilities depend on operating-system permissions.
 
 ---
 
 ## IoT Privacy Plugin
 
-Extends Umbrix protection to IoT environments.
+Extends Umbrix to IoT environments.
 
 Capabilities include:
 
@@ -593,26 +800,73 @@ Capabilities include:
 - Device isolation
 - DNS protection
 - Metadata minimization
-- Policy-based routing
+- Device policies
 - Gateway deployment
 
 ---
 
 ## Secure AI Gateway Plugin
 
-Provides an Umbrix privacy gateway for locally hosted AI systems.
+Provides a dedicated Umbrix privacy gateway for locally hosted AI infrastructure.
 
 Capabilities include:
 
 - Model-server traffic protection
 - AI API isolation
-- Local inference network isolation
-- Secure model-server communication
-- Application-specific tunnels
+- Local inference isolation
+- Model-server communication protection
+- AI application-specific tunnels
 - AI workload network policies
 - Metadata minimization
+- Agent channel provisioning
 
-The goal is to make network privacy a standard component of locally hosted AI infrastructure.
+---
+
+## Agent Orchestration Plugin
+
+Integrates Umbrix with external AI orchestration systems.
+
+Capabilities may include:
+
+- Automatic agent registration
+- Automatic channel creation
+- Agent-to-channel assignment
+- Dynamic policy assignment
+- Agent shutdown detection
+- Channel cleanup
+- Channel health integration
+- Agent fleet management
+
+---
+
+## Container Network Plugin
+
+Provides network isolation for containerized AI agents and applications.
+
+Capabilities include:
+
+- Container-specific channels
+- Namespace-aware routing
+- Per-container DNS
+- Container kill switches
+- Container-specific exit policies
+- Container channel lifecycle
+- Container network isolation
+
+---
+
+## Virtual Machine Network Plugin
+
+Provides independent Umbrix channels for virtual machines.
+
+Capabilities include:
+
+- VM-specific channels
+- VM routing policies
+- VM DNS policies
+- VM kill switches
+- VM-specific privacy profiles
+- VM channel lifecycle management
 
 ---
 
@@ -624,7 +878,7 @@ Provides optional layered tunnel architectures for deployments requiring additio
 
 ## Peer Relay Plugin
 
-Allows participating clients to act as temporary relay nodes.
+Allows authorized clients to operate as temporary relay nodes.
 
 Capabilities include:
 
@@ -633,13 +887,13 @@ Capabilities include:
 - Relay authorization
 - Relay expiration
 - Capacity controls
-- Privacy policies
+- Relay privacy policies
 
 ---
 
 ## Decentralized Payment Plugin
 
-Provides optional mechanisms for node operators and infrastructure providers to coordinate payments without requiring payment functionality in the Umbrix core.
+Provides optional infrastructure for node operators and service providers to coordinate payments without placing payment functionality in the Umbrix core.
 
 ---
 
@@ -662,17 +916,17 @@ Provides research and development capabilities for:
 Provides optional network intelligence for:
 
 - Route recommendations
-- Network availability
 - Latency analysis
 - Regional connectivity
-- Node placement analysis
+- Node availability
 - Connectivity disruption detection
+- Infrastructure analysis
 
 ---
 
 ## Node Placement Plugin
 
-Assists operators in determining suitable infrastructure locations based on:
+Assists infrastructure operators with node placement analysis based on:
 
 - Network latency
 - Regional diversity
@@ -685,7 +939,7 @@ Assists operators in determining suitable infrastructure locations based on:
 
 ## Secure Application SDK Plugin
 
-Provides developer-facing APIs for integrating Umbrix privacy capabilities into third-party applications.
+Provides APIs for integrating Umbrix privacy capabilities into third-party applications.
 
 Potential integrations include:
 
@@ -701,95 +955,119 @@ Potential integrations include:
 
 ## Experimental Cryptography Plugin
 
-Provides a controlled environment for evaluating new cryptographic algorithms and post-quantum mechanisms before potential inclusion in the core cryptographic architecture.
+Provides a controlled environment for evaluating emerging cryptographic algorithms and post-quantum mechanisms.
 
-Experimental cryptography must never silently replace production cryptographic primitives.
-
----
-
-# Client Architecture
-
-The Umbrix client consists of:
-
-- User interface
-- Policy engine
-- Tunnel manager
-- Protocol engine
-- Routing engine
-- DNS privacy engine
-- Kill switch
-- Security monitor
-- Plugin manager
-- Platform integration layer
-
-The platform integration layer provides operating-system-specific implementations while maintaining a common Umbrix security model.
+Experimental algorithms must not silently replace production cryptographic mechanisms.
 
 ---
 
-# Node Architecture
+# Multi-Agent Privacy Architecture
 
-An Umbrix node consists of:
+Umbrix should support an environment where multiple AI agents operate simultaneously while maintaining independent network privacy boundaries.
 
-- Node identity
-- Protocol engine
-- Cryptographic engine
-- Routing engine
-- Transport engine
-- Relay engine
-- Health monitor
-- Reputation interface
-- Policy engine
-- Optional plugins
+A deployment may contain:
 
-Node operators can deploy only the functionality required for their intended role.
+- Agent A with a two-hop route
+- Agent B with a three-hop route
+- Agent C with a dedicated exit policy
+- Agent D with restricted destination access
+- Agent E with maximum obfuscation
+
+Each agent can maintain independent:
+
+- Channels
+- Keys
+- Routes
+- DNS policies
+- Privacy profiles
+- Kill switches
+- Security policies
+- Bandwidth limits
+- Plugin permissions
+- Destination policies
+
+The system should prevent accidental channel sharing unless explicitly authorized.
+
+---
+
+# AI Agent Channel Isolation
+
+Each AI agent should be treated as an independently addressable network workload.
+
+A channel should provide:
+
+- Network isolation
+- Cryptographic isolation
+- Routing isolation
+- DNS isolation
+- Policy isolation
+- Security isolation
+- Lifecycle isolation
+
+The channel architecture should support local AI systems running multiple simultaneous agents without requiring all agents to share one VPN identity or route.
+
+---
+
+# AI Agent Network Lifecycle
+
+A typical AI agent lifecycle should support:
+
+**Register → Authenticate → Create Channel → Assign Policy → Establish Route → Start Agent → Monitor → Rotate Route → Update Policy → Terminate Agent → Destroy Channel**
+
+Channel destruction should invalidate the associated session and dispose of ephemeral cryptographic material according to configured security policy.
 
 ---
 
 # Control Plane
 
-Umbrix uses a distributed control-plane architecture.
+The Umbrix control plane manages distributed network coordination.
 
-Control-plane responsibilities include:
+Capabilities include:
 
 - Node discovery
-- Capability advertisement
+- Node capability advertisement
 - Route coordination
 - Policy distribution
 - Network health information
 - Node reputation
 - Version compatibility
+- Channel coordination
+- Agent channel management
 - Key-management coordination
 
-The control plane should be designed so that compromising a discovery service does not automatically compromise encrypted user traffic.
+Compromise of a discovery or coordination component should not automatically expose encrypted user traffic.
 
 ---
 
 # Routing Architecture
 
-Umbrix supports configurable multi-node routing.
+Umbrix supports configurable multi-node paths.
 
-A typical route can contain:
+A typical route may consist of:
 
-**Client → Entry Node → Relay Node → Exit Node → Destination**
+**Client or Agent → Entry Node → Relay Node → Exit Node → Destination**
+
+Routing can be independently configured for each device, application, container, virtual machine, or AI agent.
 
 Users may configure:
 
-- Number of hops
+- Hop count
 - Geographic requirements
 - Node requirements
 - Performance requirements
 - Route rotation
 - Exit policies
 - Relay diversity
-- Privacy profile
+- Privacy profiles
+- Agent-specific policies
 
-Umbrix should avoid making absolute claims such as "untraceable" or "impossible to correlate." Traffic analysis remains an evolving field, and strong privacy requires continuous evaluation.
+Umbrix should not claim absolute anonymity or guarantee that traffic analysis is impossible.
 
 ---
 
 # Protocol Architecture
 
-Umbrix uses a protocol architecture designed around separation of:
+Umbrix uses a protocol architecture that separates:
 
 - Authentication
 - Encryption
@@ -797,8 +1075,9 @@ Umbrix uses a protocol architecture designed around separation of:
 - Transport
 - Obfuscation
 - Session management
+- Channel management
 
-The protocol should support multiple transports without coupling the security model to a single transport implementation.
+The protocol should support multiple transports without coupling the security model to one transport.
 
 Planned capabilities include:
 
@@ -811,6 +1090,8 @@ Planned capabilities include:
 - Packet authentication
 - Routing envelopes
 - Cryptographic agility
+- Channel-specific sessions
+- Agent-specific sessions
 - Version compatibility
 
 ---
@@ -825,7 +1106,7 @@ Protects IP addresses, routing information, and network traffic.
 
 ### Transport Layer
 
-Protects traffic characteristics and provides configurable obfuscation.
+Provides encrypted communication and configurable traffic obfuscation.
 
 ### DNS Layer
 
@@ -835,9 +1116,13 @@ Protects domain-resolution activity.
 
 Provides application-specific routing and privacy policies.
 
+### AI Agent Layer
+
+Provides dedicated network channels and privacy boundaries for individual AI agents.
+
 ### Browser Layer
 
-Provides optional fingerprint and browser privacy controls.
+Provides optional browser fingerprint and privacy controls.
 
 ### Device Layer
 
@@ -868,28 +1153,31 @@ Security mechanisms include:
 - Kill switch enforcement
 - Configuration validation
 - Plugin isolation
+- Channel isolation
+- Agent isolation
 - Security auditing
 
 ---
 
 # Cryptography
 
-The initial cryptographic architecture is intended to support:
+The initial cryptographic architecture should support:
 
 - X25519
 - ChaCha20-Poly1305
 - BLAKE3
 - Cryptographically secure randomness
 - Ephemeral session keys
+- Per-channel keys
+- Per-hop keys
+- Forward secrecy
 - Hybrid post-quantum key exchange
 
-Cryptographic implementations should use well-maintained, independently reviewed libraries wherever possible.
-
-Umbrix should maintain cryptographic agility so algorithms can be replaced as standards and security requirements evolve.
+Umbrix should maintain cryptographic agility so algorithms can evolve without requiring a complete architectural redesign.
 
 ---
 
-# Cross-Platform Support
+# Cross Platform Support
 
 Umbrix targets:
 
@@ -906,9 +1194,12 @@ Optional integrations include:
 - Self-hosted servers
 - Cloud nodes
 - Developer SDKs
-- Locally hosted AI infrastructure
+- Container environments
+- Virtual machines
+- Locally hosted AI systems
+- AI orchestration systems
 
-Platform-specific privacy capabilities will depend on the permissions and security architecture of each operating system.
+Platform-specific capabilities depend on operating-system permissions and security models.
 
 ---
 
@@ -916,7 +1207,7 @@ Platform-specific privacy capabilities will depend on the permissions and securi
 
 Umbrix is designed to provide a privacy layer for locally hosted AI.
 
-Locally hosted AI can reduce dependence on remote model providers, but local inference does not automatically protect:
+Running an AI model locally does not automatically protect:
 
 - Network traffic
 - DNS requests
@@ -926,10 +1217,11 @@ Locally hosted AI can reduce dependence on remote model providers, but local inf
 - Update services
 - External data sources
 - Application telemetry
+- Agent-to-agent communications
 
-Umbrix can provide a dedicated network privacy layer around locally hosted AI workloads through its core routing and security architecture and optional Secure AI Gateway Plugin.
+Umbrix should allow each AI agent to receive its own network channel so that local AI deployments can establish independent privacy boundaries for every running agent.
 
-The long-term objective is to make network privacy a standard architectural component of locally hosted AI rather than an afterthought.
+The long-term objective is to make network privacy a standard component of locally hosted AI infrastructure.
 
 ---
 
@@ -937,7 +1229,7 @@ The long-term objective is to make network privacy a standard architectural comp
 
 Umbrix is designed for extensibility.
 
-Developers can build plugins for:
+Developers can build integrations for:
 
 - Routing
 - Transport
@@ -949,9 +1241,10 @@ Developers can build plugins for:
 - Application integration
 - Cryptographic experimentation
 - Monitoring
-- Research
+- Agent orchestration
+- AI development frameworks
 
-Plugins should expose explicit capabilities and permissions and should not automatically receive unrestricted access to sensitive networking or cryptographic material.
+Plugins should expose explicit capabilities and permissions.
 
 ---
 
@@ -968,9 +1261,9 @@ Every plugin should declare:
 - Configuration requirements
 - Security dependencies
 
-Plugin permissions should be minimized according to the principle of least privilege.
+Plugin permissions should follow least-privilege principles.
 
-Security-critical core functions must not be replaceable by untrusted plugins without explicit administrator approval.
+Security-critical core functionality must not be replaceable by untrusted plugins without explicit administrator approval.
 
 ---
 
@@ -985,13 +1278,16 @@ Umbrix configuration should support:
 - DNS policies
 - Kill switch settings
 - Application routing
+- AI-agent routing
 - Transport preferences
 - Obfuscation profiles
+- Channel policies
+- Agent policies
 - Plugin configuration
 - Update channels
 - Diagnostic preferences
 
-Configuration should be validated before activation and rejected when security requirements conflict.
+Configuration should be validated before activation.
 
 ---
 
@@ -1006,17 +1302,21 @@ Umbrix should support:
 - Cloud deployments
 - Hybrid deployments
 - IoT gateways
+- Containerized deployments
+- Virtual machines
 - Locally hosted AI environments
+- AI agent environments
 
-Node operators should be able to independently configure infrastructure without requiring access to client traffic or private user credentials.
+Node operators should be able to configure infrastructure independently without requiring access to user traffic or private client credentials.
 
 ---
 
-# Commercial-Grade Operations
+# Commercial Grade Operations
 
-Umbrix is designed to support production environments through:
+Umbrix should support production deployments through:
 
-- Stable and beta release channels
+- Stable releases
+- Beta releases
 - Signed releases
 - Automatic updates
 - Health monitoring
@@ -1028,6 +1328,8 @@ Umbrix is designed to support production environments through:
 - Deployment automation
 - Optional metrics
 - Version compatibility checks
+- Channel health monitoring
+- Agent fleet management
 
 ---
 
@@ -1040,6 +1342,8 @@ Umbrix development should include:
 - Protocol testing
 - Cross-platform testing
 - Multi-node testing
+- Multi-channel testing
+- Multi-agent testing
 - Failure testing
 - Performance testing
 - Privacy leak testing
@@ -1048,9 +1352,11 @@ Umbrix development should include:
 - Cryptographic testing
 - Fuzz testing
 - Plugin isolation testing
+- Channel isolation testing
+- Agent isolation testing
 - Security auditing
 
-Privacy claims should be validated through measurable testing rather than assumed from architectural intent.
+Privacy claims should be validated through measurable testing.
 
 ---
 
@@ -1065,6 +1371,8 @@ Umbrix should provide configurable tradeoffs between:
 - CPU usage
 - Route complexity
 - Obfuscation strength
+- Number of channels
+- Number of active AI agents
 
 Users should be able to select appropriate profiles rather than forcing maximum overhead on every connection.
 
@@ -1078,6 +1386,8 @@ Supported information may include:
 
 - Connection status
 - Tunnel health
+- Channel health
+- Agent channel status
 - Node availability
 - Latency
 - Packet loss
@@ -1095,66 +1405,16 @@ Umbrix should provide emergency controls capable of:
 
 - Blocking network traffic
 - Terminating active tunnels
+- Terminating individual channels
+- Terminating individual agent channels
 - Removing ephemeral routing information
 - Rotating session keys
 - Disconnecting compromised nodes
 - Disabling plugins
+- Revoking agent permissions
 - Restoring safe configuration defaults
 
 Emergency controls should prioritize preventing accidental traffic leakage.
-
----
-
-# Roadmap
-
-## Phase 1 — Foundation
-
-- Core client
-- Core node
-- Tunnel implementation
-- Cryptographic module
-- Initial protocol
-- Basic routing
-- DNS protection
-- Kill switch
-- Configuration system
-
-## Phase 2 — Multi-Node Network
-
-- Multi-hop routing
-- Node discovery
-- Node reputation
-- Route failover
-- Adaptive routing
-- Distributed control plane
-
-## Phase 3 — Advanced Privacy
-
-- Traffic obfuscation
-- Flow shaping
-- Fingerprint protection
-- Application routing
-- Privacy profiles
-- Advanced security monitoring
-
-## Phase 4 — Plugin Ecosystem
-
-- Plugin API
-- Plugin permissions
-- AI threat detection
-- Traffic morphing
-- Browser privacy
-- IoT support
-- Secure AI Gateway
-- Developer SDK
-
-## Phase 5 — Research and Future Security
-
-- Post-quantum cryptography
-- Advanced network simulation
-- Experimental transports
-- Advanced privacy research
-- Additional decentralized infrastructure
 
 ---
 
@@ -1162,29 +1422,7 @@ Emergency controls should prioritize preventing accidental traffic leakage.
 
 Security vulnerabilities should be reported responsibly through the project's designated security-reporting process.
 
-Do not publicly disclose an exploitable vulnerability before maintainers have had an opportunity to evaluate and address it.
-
----
-
-# Contributions
-
-Contributions are welcome across:
-
-- Network engineering
-- Systems programming
-- Cryptography
-- Security research
-- Routing
-- Obfuscation
-- Cross-platform development
-- AI security
-- Browser privacy
-- IoT networking
-- Documentation
-- Testing
-- Infrastructure
-
-See `CONTRIBUTING.md` for contribution requirements.
+Security researchers should avoid publicly disclosing exploitable vulnerabilities before maintainers have had an opportunity to evaluate and address them.
 
 ---
 
@@ -1215,7 +1453,7 @@ Please note the following:
 - All contributions must comply with the **AGPL-3.0+** terms.  
 - Under **Section 7** of the license, all redistributions, forks, and derivative works must preserve attribution to:  
   **Roxanne Ardary** and **[roxanneardary.com](https://www.roxanneardary.com/)**.  
-- Umbrix specificiations are free to use with attribution. A Specification Branding License can be negotiated upon request.
+- Umbrix specifications are free to use with attribution. A Specification Branding License can be negotiated upon request.
 - The project's **notice.md** file tracks attribution requirements and contributor acknowledgments.   
   Any update that adds new contributors or modifies attribution should also update `notice.md`. 
 - When submitting a pull request, ensure that any new files maintain the attribution headers where applicable.
