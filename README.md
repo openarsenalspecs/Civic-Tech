@@ -226,7 +226,7 @@ LoyalCredit is an open source, relationship-based credit specification that buil
   [https://roxanneardary.com/molecularai/](https://roxanneardary.com/molecularai/)  
   An open-source modular platform for molecular intelligence, gene therapy research, nanotechnology, digital twins, autonomous scientific discovery, and advanced molecular design.
 
-- [**NeuraTrust Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/3eb48917b7837cef45c29b5bc4fbdf36508cd9a1/NeuraTrust.md)    
+- [**NeuraTrust Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/6978d9413922b1719950b001f647a6772b0bb24f/NeuraTrust.md)    
   [https://roxanneardary.com/neuratrust/](https://roxanneardary.com/neuratrust/)  
   An open-source, human-accountable AI platform focused on transparent governance, provable safety, and auditable intelligence systems.  
 
