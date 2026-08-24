@@ -32,7 +32,11 @@ Organizations are welcome to implement these specifications under their respecti
 
 - [**Aligned Markets Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/7172273974d5363f4503eb7910da5b3431dbe47c/Aligned%20Markets.md)     
   [https://roxanneardary.com/alignedmarkets/](https://roxanneardary.com/alignedmarkets/)  
-  An open-source transparent equity market infrastructure project focused on verifiable trading, shareholder alignment, and accountable market mechanics.  
+  An open-source transparent equity market infrastructure project focused on verifiable trading, shareholder alignment, and accountable market mechanics.
+
+- [**AppealRight Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/51d1724c2b8b4d266dfc9ee07943a3b3dfeeb2ba/AppealRight.md)  
+[https://roxanneardary.com/appealright/](https://roxanneardary.com/appealright/)  
+AppealRight is an AI-powered property tax assessment analysis system that evaluates comparable sales, assessment calculations, tax relief programs, market trends, and appeal risks. It helps property owners determine whether an assessment reduction may be supportable, estimate potential tax savings, and make an informed decision about whether to appeal.  
 
 - [**ArcaneBuild Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/cbe1a05051624fb9d28ad54ad9d8f37dcba1f495/ArcaneBuild.md)    
   [https://roxanneardary.com/arcanebuild/](https://roxanneardary.com/arcanebuild/)  
