@@ -366,9 +366,9 @@ ScriptFlow is an open-source, multi-agent AI screenplay specification that trans
   [https://roxanneardary.com/solvra/](https://roxanneardary.com/solvra/)  
   A transparent engine for controlled amortization that models loans using a capped-interest system and evenly distributed payments across the full term.
 
-- [**StatuteMind Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/42242840dfce43c101804d83a2e9fbf0389caa20/StatuteMind.md)    
+- [**StatuteMind Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/2b2b4990cecc7e10499dfa86f805820ac20df901/StatuteMind.md)  
   [https://roxanneardary.com/statuemind/](https://roxanneardary.com/statuemind/)  
-  AI module ensuring LLM responses comply with laws and provide risk scoring and legal guidance. AGPLv3
+  AI module ensuring LLM responses comply with laws and provide risk scoring and legal guidance. AGPLv3  
 
 - **SwapCell**  
   [https://roxanneardary.com/swapcell/](https://roxanneardary.com/swapcell/)  
