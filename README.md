@@ -102,9 +102,9 @@ AppealRight is an AI-powered property tax assessment analysis system that evalua
   [https://roxanneardary.com/clearsignal/](https://roxanneardary.com/clearsignal/)  
   Maps telecom companies, infrastructure, ownership hierarchies, and coverage worldwide with transparent, verifiable data. AGPLv3
 
-- [**CodexAtlas Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/83b62c66c2e7dc222e1febfdf38e31d9240994e1/CodexAtlas.md)    
+- [**CodexAtlas Module Specification**](https://github.com/openarsenalspecs/Civic-Tech/blob/4d716dd96a6a30c5cae48d4cdf09337304358bb0/CodexAtlas.md)  
   [https://roxanneardary.com/codexatlas/](https://roxanneardary.com/codexatlas/)  
-  Hybrid AI connecting global legal systems to build a knowledge graph with predictive reasoning and public summaries. AGPLv3
+  Hybrid AI connecting global legal systems to build a knowledge graph with predictive reasoning and public summaries. AGPLv3  
 
 - **CommonsProtocol**  
   [https://roxanneardary.com/commonsprotocol/](https://roxanneardary.com/commonsprotocol/)  
